@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal
+}
+.flex__spacearound{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    font-size:2.4vw;
+    color: #303C4C;
+    border-bottom: 1px solid #378E9C;
+    align-self: center;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+.flex__column{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 3vw;
+}
+
+/* section header */
+.header{
+    border-bottom: solid 1px rgb(173, 230, 238);
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    top:0px;
+    height: 7vw;
+}
+.header__img{
+    width: 15vw;
+    margin: 0.6vw;
+}
+.header__list__menu{
+    display: none;
+}
+
+/* menu */
+.menu__items { 
+    min-width: 4.7vw;
+    height: 3vw;
+    text-align: center;
+    list-style-type: none;
+    padding:0px 0.6vw 0px 0.6vw;
+}
+.menu__link{  
+    text-decoration: none;
+    color: rgb(57,144,156);   
+    font-size: 1.2vw;
+    line-height: 0.9vw;
+}
+.select{
+    margin-top: 0.18vw;
+    border-bottom: solid 0.18vw rgb(41, 107, 116);
+}
+.menu__items:hover{
+   background-color: rgb(200,250, 250);
+} 
+.menu__button__contact{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 4.74vw;
+    margin:0px 3vw 0px 5.7vw;
+    padding: 1vw;
+    background-color: rgb(57,144,156);
+    border-radius: 0.3vw;
+    box-shadow: 2px 2px 3px rgb(151, 235, 247);
+}
+.menu__button__link{
+    color: #ffffff;
+    font-size: 1.6vw;
+}
+
+.icone__contact{
+    position: fixed;
+    right: 0px;
+    top:40vh;
+    background-color: #E5F0FF;
+    border: solid 1px rgb(57,144,156);
+    border-radius: 10px;
+    height: 7vw;
+    padding: 0.6vw;    
+}
+.icone__contact__link{
+    margin: 0.2vw;
+    height: 1.6vw;
+ }
+.icone__img{    
+    width: 1.6vw;
+    height: 1.6vw;
+}
+/* section destaque */
+.banner{
+    margin-top: 3vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.banner__title{
+    color: rgb(130,184,193,1);  
+    margin-bottom: 2.1vw;
+    width: 100%;
+    font-size: 2.4vw;
+    line-height: 2.5vw;
+    text-align: center;
+}
+.banner__img{
+    width:35vw;
+    min-width: 29.66vw;
+}
+
+/* section description */
+.description{
+    margin-top: 5vw;
+    height: 40vw;
+    background: linear-gradient(270deg, #378E9C 3.18%, #7AD4D1 51.42%, #378E9C 103.84%);
+}
+.description__text{
+    font-size:1.4vw;
+    color: #06152b;
+    padding-top:2.4vw;
+    width: 50vw;
+}
+.description__img{
+    width:30%;
+}
+
+/* section interval */
+.interval{
+    align-items: center;
+    padding: 7vw;
+}
+.interval__img{
+    width: 45vw;
+}
+.interval__text{
+    padding: 2px 6vw 2px 6vw;
+    background: #378E9C;
+    border-radius: 42px;
+    color: #E5F0FF;
+    font-size: 2vw;
+}
+
+/* section teachers */
+.teachers__description{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: start;
+    align-items: center;
+    padding: 1vw;
+    border: solid 4px #378E9C;
+    height: 80vh;
+    border-radius: 30px;
+    margin: 1vw;
+    width: 40vw;
+}
+.teachers__img{
+    width: 20vw;
+    padding: 1vw;
+    border: solid 1px #303C4C;
+}
+.teachers__title{
+    font-size: 1.8vw;
+    padding: 1vw;
+    color: #06152b;
+}
+.teachers__text{
+    font-size: 1.2vw;
+    color: #06152b;
+}
+
+/* section modalities*/
+.modalities{
+    display: flex;
+    justify-content: center;
+    
+}
+.modalities__group1{
+    width:60vw;
+    position: relative;
+}
+.modalities__img{
+    width:60vw;
+}
+.modalities__about{
+    position: absolute;
+    background: rgba(232, 183, 255, 0.71);
+    top:0px;
+    right:0px;
+    width:25vw;
+    height:45vw;
+    justify-content: flex-start;
+    align-items: center;
+}
+.modalities__title{
+    color:#202C2C;
+    font-size: 3vw;
+}
+.modalities__age{
+    color:#202C2C;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+.modalities__explanation{
+    color:#202C2C;
+    margin-top: 4vw;
+    font-size: 1.4vw;
+}
+
+/* section comments*/
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: solid 3px #378E9C;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 1vw;
+    color: #06152b;
+}
+
+/* section contact */
+.contact{
+    padding: 1vw;
+    background-color: #378E9C;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height:70vh; 
+}
+.contact_phone{
+    color: #06152b;
+}
+.contact__address{
+  align-items: center;
+  padding: 0px;
+  color: #06152b;
+}
+.contact__map{
+    border: solid 5px #fff;
+    margin: 1vw;
+    
+}
+.contact__img{
+    width:2vw;
+}
+.contact__instagram__link{
+    text-decoration: none;
+    list-style: none;
+    color: #06152b;
+}
+.instagram__images{
+        display: grid;
+        grid-template-columns: repeat(3, 8vw);
+        grid-template-rows: repeat(3, 8vw);
+}
+.instagram__img{
+    border: solid 1px black;
+    margin:0.4vw;
+}
+
+
+@media(max-width: 840px){
+    .menu__items{
+        display:none;
+    }
+    .header__list__menu{
+        display: block;
+        background-color: rgb(255, 255, 255);
+        border: rgb(255, 255, 255);
+        border-radius: 60px;
+        margin-left:10vw;
+
+    }
+}
+@media(max-width: 1197px)
+{
+    .element--width{
+        /* margin-top: 3.6vw; */
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    } 
+    .title{
+        font-size: 3.4vw;
+    }
+    .icone__contact{
+        position: fixed;
+        height: 20vw;;
+        padding: 0.6vw;    
+    }
+    .icone__contact__link{
+        margin: 1vw;
+        height: 3vw;
+     }
+    .icone__img{    
+        width: 4vw;
+        height: 4vw;
+    }
+    .description{
+        height: 70vw;
+    } 
+    .description__img{
+        width: 35vw;
+        margin-top: 2vw;
+    }
+    .description__text{
+        width: 85vw;
+        margin-top: 0vw;
+        font-size: 2vw;
+    }
+    .teachers__description{
+        width:80vw;
+        height: 20vh;
+    }
+    .teachers__img{
+        width: 20vw;
+    }
+    .teachers__title{
+        font-size: 2.4vw;
+    }
+    .teachers__text{
+        font-size: 2vw;
+    }
+    .comments{
+        width: 70vw;
+    
+        font-size: 2vw;
+    }
+    .contact{
+        padding: 0px;
+    }
+    .contact__telephone{
+        padding: 2vw;
+    }
+    .contact__address{
+        padding: 2vw;
+    }
+    .contact__instagram{
+        padding: 2vw;
+    }
+    
+}
+
