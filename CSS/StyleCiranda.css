@@ -84,7 +84,7 @@
 
 .icone__contact{
     position: fixed;
-    right: 0px;
+    right: 3px;
     top:40vh;
     background-color: #E5F0FF;
     border: solid 1px rgb(57,144,156);
@@ -240,21 +240,18 @@
     flex-wrap: wrap;
     height:70vh; 
 }
+.contact__img{
+    width:2vw;
+}
+.contact__line{
+    border: solid 1px #06152b;
+    margin-bottom: 0.6vw;
+}
 .contact_phone{
     color: #06152b;
 }
-.contact__address{
-  align-items: center;
-  padding: 0px;
-  color: #06152b;
-}
-.contact__map{
-    border: solid 5px #fff;
-    margin: 1vw;
-    
-}
-.contact__img{
-    width:2vw;
+.contact__number{
+    margin-bottom: 1.4vw;
 }
 .contact__instagram__link{
     text-decoration: none;
@@ -270,7 +267,16 @@
     border: solid 1px black;
     margin:0.4vw;
 }
-
+.contact__address{
+    align-items: center;
+    padding: 0px;
+    color: #06152b;
+  }
+  .contact__map{
+      border: solid 5px #fff;
+      margin: 1vw;
+      
+  }
 
 @media(max-width: 840px){
     .menu__items{
