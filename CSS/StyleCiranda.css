@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
     height: 4.74vw;
-    margin:0px 3vw 0px 5.7vw;
+    margin:0px 2vw 0px 5.4vw;
     padding: 1vw;
     background-color: rgb(57,144,156);
     border-radius: 0.3vw;
@@ -216,7 +216,7 @@
 .modalities__explanation{
     color:#202C2C;
     margin-top: 4vw;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 
 /* section comments*/
@@ -230,8 +230,21 @@
     height: 20vw;
     margin-top: 1vw;
     color: #06152b;
+    position: relative;
+    
 }
-
+.comments__img__init{
+    width:2vw;
+    position: absolute;
+    top:1vw;
+    left:1vw;
+}
+.comments__img__end{
+    width:2vw;
+    position: absolute;
+    bottom:1vw;
+    right:1vw;
+}
 /* section contact */
 .contact{
     padding: 1vw;
