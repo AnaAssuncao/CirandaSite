@@ -39,7 +39,8 @@
     }
     .icone__contact{
         position: fixed;
-        height: 20vw;;
+        width: 50vw;
+        height: 20vw;
         padding: 0.6vw;    
     }
     .icone__contact__link{
@@ -47,7 +48,7 @@
         height: 3vw;
      }
     .icone__img{    
-        width: 4vw;
+        width: 7vw;
         height: 4vw;
     }
     .banner__title{
