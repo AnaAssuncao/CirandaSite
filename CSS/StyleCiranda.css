@@ -87,7 +87,7 @@
 .icone__contact{
     position: fixed;
     right: 3px;
-    top:40vh;
+    top:20vw;
     background-color: #E5F0FF;
     border: solid 1px rgb(57,144,156);
     border-radius: 10px;
@@ -138,7 +138,7 @@
 }
 .description__video{
     width:40vw;
-    height: 50vh;
+    height: 25vw;
     padding-top:2vw;
 }
 
@@ -166,14 +166,14 @@
     align-items: center;
     padding: 1vw;
     border: solid 4px #378E9C;
-    height: 90vh;
+    height: 44vw;
     border-radius: 30px;
     margin: 1vw;
     width: 40vw;
 }
 .teachers__img{
     width: 20vw;
-    height: 40vh;
+    height: 20vw;
     padding: 1vw;
     border: solid 1px #303C4C;
 }
@@ -369,8 +369,8 @@
         min-width: 40vw;
     }
     .description{
-        height: 75vh;
-        margin-top: 8vh;
+        height: 140vw;
+        margin-top: 8vw;
         border-radius: 30vw;
     } 
     .description__video{
@@ -393,18 +393,18 @@
         font-size: 3vw;
     }
     .teachers{
-        margin-top: 8vh;
+        margin-top: 8vw;
     }
     .teachers__description{
         width:84vw;
-        height: 26vh;
+        height: 48vw;
         flex-flow: column wrap;
         justify-self: center;
     }
     .teachers__img{
        margin-top: 4vw;
         width: 25vw;
-        height: 20vh;
+        height: 38vw;
     }
     .teachers__title{
         margin-top: 0.6vw;
@@ -417,18 +417,18 @@
         font-weight: normal;
     }
     .education{
-        margin: 8vh 0px 8vh 0px;
+        margin: 8vw 0px 8vw 0px;
     }
     .modalities__group1{
         width:84vw;
     }
     .modalities__img{
         width:84vw;
-        height: 36vh;
+        height: 70vw;
     }
     .modalities__about{
         width:38vw;
-        height:36vh;
+        height:70vw;
     }
     .modalities__title{
         font-size: 4vw;
@@ -441,7 +441,7 @@
     }
 
     .student_voice{
-        margin: 8vh 0px 8vh 0px;
+        margin: 8vw 0px 8vw 0px;
     }
     .comments{
         display: flex;
@@ -462,7 +462,7 @@
     }  
     .icone__contact{
         width: 5vw;
-        height: 14vh;
+        height: 26vw;
     }
     .icone__contact__link{
         margin:2vw 0px 2vw 0px;
@@ -476,10 +476,10 @@
     .contact{
         align-items: flex-start;
         flex-wrap: wrap;
-        height: 60vh;
+        height: 110vw;
     }
     .contact__telephone{
-        height: 4vh;
+        height: 4vw;
     }
     .contat__flexrow{
         display: flex;
@@ -516,7 +516,7 @@
     .contact__return{
         width:10vw;
         position: absolute;
-        bottom: 2vh;
+        bottom: 4vw;
         left:23vw;
     }
 }
