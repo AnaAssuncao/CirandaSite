@@ -28,17 +28,19 @@
 
 /* section header */
 #header{
-    border-bottom: solid 1px rgb(173, 230, 238);
+    /* border-bottom: solid 1px rgb(173, 230, 238); */
     background-color: #fff;
     display: flex;
     justify-content: space-between;
     /* position: fixed; */
     top:0px;
+    width: 100vw;
     height: 7vw;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
 }
 .header__img{
     width: 15vw;
-    margin: 0.6vw;
+    margin: 0.6vw 0px 0.6vw 1vw;
 }
 .header__list__menu{
     display: none;
@@ -102,7 +104,7 @@
 }
 /* section destaque */
 .banner{
-    margin-top: 3vw;
+    margin-top: 5vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -112,7 +114,7 @@
     color: rgb(130,184,193,1);  
     margin-bottom: 2.1vw;
     width: 100%;
-    font-size: 2.4vw;
+    font-size: 2.8vw;
     line-height: 2.5vw;
     text-align: center;
 }
@@ -126,6 +128,7 @@
     margin-top: 5vw;
     height: 40vw;
     background: linear-gradient(270deg, #378E9C 3.18%, #7AD4D1 51.42%, #378E9C 103.84%);
+    box-shadow: 2px 0px 2px 3px rgb(200, 243, 250);
 }
 .description__text{
     font-size:1.4vw;
@@ -229,12 +232,12 @@
     align-items: center;
     background-color: #fff;
     border: solid 3px #378E9C;
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     margin-top: 1vw;
     color: #06152b;
     position: relative;
-    
+    border-radius: 2vw;  
 }
 .comments__img__init{
     width:2vw;
@@ -257,14 +260,14 @@
     height:70vh; 
     position: relative;
 }
-.contact__img{
+.contact__icone{
     width:2vw;
 }
 .contact__line{
     border: solid 1px #06152b;
     margin-bottom: 0.6vw;
 }
-.contact_phone{
+.contact__phone{
     color: #06152b;
    
 }
@@ -279,9 +282,9 @@
     color: #06152b;
 }
 .instagram__images{
-        display: grid;
-        grid-template-columns: repeat(3, 8vw);
-        grid-template-rows: repeat(3, 8vw);
+    display: grid;
+    grid-template-columns: repeat(3, 8vw);
+    grid-template-rows: repeat(3, 8vw);
 }
 .instagram__img{
     border: solid 1px black;
@@ -295,6 +298,8 @@
   .contact__map{
       border: solid 5px #fff;
       margin: 1vw;
+      width:6vw;
+      height:6vw;
   }
   .contact__return{
       width:5vw;
@@ -303,7 +308,7 @@
       left:4vw;
   }
 
-@media(max-width: 840px){
+@media(max-width: 1000px){
     .menu__items{
         display:none;
     }
@@ -322,7 +327,7 @@
         /* margin-top: 3.6vw; */
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
+
         align-items: center;
     } 
     .title{
@@ -356,15 +361,17 @@
         height: 4vw;
     }
     .banner__title{
-        font-size: 3.2vw;
+        margin-top: 3vw;
+        font-size: 3.4vw;
     }
     .banner__img{
-        width:55vw;
+        width:70vw;
         min-width: 40vw;
     }
     .description{
         height: 75vh;
         margin-top: 8vh;
+        border-radius: 30vw;
     } 
     .description__video{
         width:84vw;
@@ -395,11 +402,12 @@
         justify-self: center;
     }
     .teachers__img{
-       margin-top: 2vw;
+       margin-top: 4vw;
         width: 25vw;
         height: 20vh;
     }
     .teachers__title{
+        margin-top: 0.6vw;
         font-size: 3vw;
         font-weight:bold;
     }
@@ -419,24 +427,22 @@
         height: 36vh;
     }
     .modalities__about{
-        width:35vw;
+        width:38vw;
         height:36vh;
     }
     .modalities__title{
         font-size: 4vw;
     }
     .modalities__age{
-        font-size: 2.2vw;
+        font-size: 2.4vw;
     }
     .modalities__explanation{
-        font-size: 2vw;
+        font-size: 2.2vw;
     }
 
     .student_voice{
         margin: 8vh 0px 8vh 0px;
     }
-    
-    /* section comments*/
     .comments{
         display: flex;
         justify-content: center;
@@ -448,11 +454,83 @@
         margin-top: 1vw;
         color: #06152b;
         position: relative;
-        
+        border-radius: 1vw;    
     }
     .comments{
         width: 70vw;
         font-size: 3vw;
     }  
+    .icone__contact{
+        width: 5vw;
+        height: 14vh;
+    }
+    .icone__contact__link{
+        margin:2vw 0px 2vw 0px;
+        width: 4vw;
+        height: 4vw;
+     }
+    .icone__img{    
+        width: 4vw;
+        height: 4vw;
+    }
+    .contact{
+        align-items: flex-start;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+    .contact__telephone{
+        height: 4vh;
+    }
+    .contat__flexrow{
+        display: flex;
+    }
+    .contact__icone{
+        margin:1vw;
+        width:4vw;
+    }
+    .contact__phone{
+        font-size: 2.4vw;
+        margin: 0.6vw 2vw 0px 0px;
+    }
+    .contact__number{
+        margin-left: 2vw;   
+        font-size: 2.6vw;
+    }
+    .instagram__images{
+        margin-top: 1vw;
+        display: grid;
+        grid-template-columns: repeat(3, 15vw);
+        grid-template-rows: repeat(3, 16vw);
+    }
+    .contact__instagram__link{
+        font-size: 2.4vw;
+        margin-top: 1vw;
+    }
+
+    .contact__map{
+        border: solid 5px #fff;
+        margin: 1vw;
+        width: 42vw;
+        height:40vw;
+    }
+    .contact__return{
+        width:10vw;
+        position: absolute;
+        bottom: 2vh;
+        left:23vw;
+    }
 }
+
+/* 
+
+  .contact__map{
+      border: solid 5px #fff;
+      margin: 1vw;
+  }
+  .contact__return{
+      width:5vw;
+      position: absolute;
+      bottom: 2vw;
+      left:4vw;
+  } */
 
