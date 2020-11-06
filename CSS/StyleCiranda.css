@@ -27,7 +27,7 @@
 }
 
 /* section header */
-.header{
+#header{
     border-bottom: solid 1px rgb(173, 230, 238);
     background-color: #fff;
     display: flex;
@@ -130,11 +130,13 @@
 .description__text{
     font-size:1.4vw;
     color: #06152b;
-    padding-top:2.4vw;
+    padding-top:2vw;
     width: 50vw;
 }
-.description__img{
-    width:30%;
+.description__video{
+    width:40vw;
+    height: 50vh;
+    padding-top:2vw;
 }
 
 /* section interval */
@@ -161,13 +163,14 @@
     align-items: center;
     padding: 1vw;
     border: solid 4px #378E9C;
-    height: 80vh;
+    height: 90vh;
     border-radius: 30px;
     margin: 1vw;
     width: 40vw;
 }
 .teachers__img{
     width: 20vw;
+    height: 40vh;
     padding: 1vw;
     border: solid 1px #303C4C;
 }
@@ -252,6 +255,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     height:70vh; 
+    position: relative;
 }
 .contact__img{
     width:2vw;
@@ -262,9 +266,12 @@
 }
 .contact_phone{
     color: #06152b;
+   
 }
 .contact__number{
-    margin-bottom: 1.4vw;
+    margin: 0.4vw 0px 0.6vw 0.2vw;
+    font-size: 1.4vw;
+    text-decoration: none;
 }
 .contact__instagram__link{
     text-decoration: none;
@@ -288,7 +295,12 @@
   .contact__map{
       border: solid 5px #fff;
       margin: 1vw;
-      
+  }
+  .contact__return{
+      width:5vw;
+      position: absolute;
+      bottom: 2vw;
+      left:4vw;
   }
 
 @media(max-width: 840px){

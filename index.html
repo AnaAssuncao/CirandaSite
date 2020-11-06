@@ -8,10 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">      
+    <header id="header">
         <img class="header__img" src="Imagens/LogoCiranda.png" alt="Logo">
-        <!-- <p>CIRANDA</p>
-        <p>Estúdio de Dança</p> -->
         <button class="header__list__menu">
             <img class="header__list__img" src="Imagens/menu.png" alt="Icone menu">
         </button>
@@ -68,7 +66,7 @@
                 peso, tempo, fluidez. 
             </p>
             <!-- <img class="description__img"src="Imagens/sobre1.png" alt="Imagem dançarinas"> -->
-            <iframe width="500" height="300" src="https://www.youtube.com/embed/yWSW8v9O-uI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="description__video" src="https://www.youtube.com/embed/yWSW8v9O-uI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
@@ -81,21 +79,21 @@
         <h1 class="title">PROFESSORES</h1>
         <div class="flex__spacearound element--width">
             <div class="teachers__description  ">
-                <img class="teachers__img" id="dancarina"src="Imagens/dancarina.png" alt="Imagem dançarina">
+                <img class="teachers__img" id="dancarina"src="Imagens/professoras.png" alt="Imagem dançarina">
                 <h3 class="teachers__title" >Bárbara Camacho</h3>
                 <p class="teachers__text">
                     Graduanda do Curso de Licenciatura em Dança pela Universidade Federal de Minas Gerais, participou de inúmeros concursos e cursos de danças visano sua qualificação enquanto professora-artística. Possui ampla experiência no campo da dança com público diverso. Atualmente desenvolve seu trabalho em estúdio de dança, na escola básica e projetos sociais.
                 </p>
             </div>
             <div class="teachers__description" >
-                <img class="teachers__img" id="dancarina"src="Imagens/dancarina.png" alt="Imagem dançarina">
+                <img class="teachers__img" id="dancarina"src="Imagens/professoras.png" alt="Imagem dançarina">
                 <h3 class="teachers__title">Mariana Rodrigues</h3>
                 <p class="teachers__text">
                     Graduanda do Curso de Licenciatura em Dança pela Universidade Federal de Minas Gerais, participou de inúmeros concursos e cursos de danças visano sua qualificação enquanto professora-artística. Possui ampla experiência na área de ensino da dança com público diverso, que vai do infantil ao adulto, escola de ensino básico e estúdio de dança. 
                 </p>
             </div>
             <div class="teachers__description ">
-                <img class="teachers__img" src="Imagens/dancarina.png" alt="Imagem dançarina">
+                <img class="teachers__img" src="Imagens/professoras.png" alt="Imagem dançarina">
                 <h3 class="teachers__title">Mateus Augusto</h3>
                 <p class="teachers__text">
                      É professor e coreógrafo de Danças Urbanas há treze anos, fez diversas cursos com professores de renome nacionais e internacionais. Participou de concurso e competições pelo Brasil, ganhou premiações com seu atual grupos de dança “Goerê é como melhor grupo e melhor dançarino.
@@ -109,7 +107,7 @@
         <div>
             ciranda estudio de dança que acredita na construção da arte a partir de pessoas interessadas na dança, acreditamos na quebra de padrão oferecida pelo povo, idade, genero, 
         </div>
-    </section>1
+    </section>
 
     <section class="modalities flex__column" id="MODALIDADES">
         <h1 class="title">MODALIDADES</h1> 
@@ -156,19 +154,19 @@
             <img class="contact__img" src="Imagens/contato-telefonico.png">
             <hr class="contact__line"/>
             <p class="contact_phone">Telefones:</p>
-                <p class="contact_phone"> Professora Bárbara</p>
-            <div class="flex__spacearound contact__number">
+            <p class="contact_phone"> Professora Bárbara</p>
+            <div class="flex__spacearound ">
                 <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">     
                     <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                 </a>
-                <p class="contact_phone">(31) 99939-6954</p>
+                <a class="contact_phone contact__number" href="tel:031999396954">(31) 99939-6954</a>
             </div>
             <p class="contact_phone"> Professora Mariana</p>
-            <div class="flex__spacearound contact__number"> 
-                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">
-                <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
+            <div class="flex__spacearound "> 
+                <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">
+                    <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                 </a>
-                <p class="contact_phone">(31) 97502-3320 </p>
+                <a class="contact_phone contact__number" href="tel:031975023320">(31) 97502-3320 </a>
             </div>             
         </div>
 
@@ -195,5 +193,9 @@
                 Endereço: Av. Marte 645, Jardim Riacho/ Contagem/MG</p>
         <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.856830687287!2d-44.06179718546958!3d-19.972522344789862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bfb36eeba507%3A0x32f9270c3e7813c8!2sAcademia%20Marte!5e0!3m2!1spt-BR!2sbr!4v1603850510772!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
+        <a class="contact__return" href="#header">
+            <img class="contact__return"  src="Imagens/return.png">
+        </a>
+      
     </footer>
 </body>
