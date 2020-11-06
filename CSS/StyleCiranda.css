@@ -326,7 +326,21 @@
         align-items: center;
     } 
     .title{
-        font-size: 3.4vw;
+        font-size: 4vw;
+    }
+    #header{
+        height: 9vw;
+    }
+    .header__img{
+        width:20vw;
+        height: 8vw;
+    }
+    .menu__button__contact{
+        height: 6vw; 
+        padding: 2vw;   
+    }
+    .menu__button__link{
+        font-size: 2vw;
     }
     .icone__contact{
         position: fixed;
@@ -341,48 +355,104 @@
         width: 4vw;
         height: 4vw;
     }
+    .banner__title{
+        font-size: 3.2vw;
+    }
+    .banner__img{
+        width:55vw;
+        min-width: 40vw;
+    }
     .description{
-        height: 70vw;
+        height: 75vh;
+        margin-top: 8vh;
     } 
-    .description__img{
-        width: 35vw;
-        margin-top: 2vw;
+    .description__video{
+        width:84vw;
+        height: 60vw;
+        padding-top:5vw;
     }
     .description__text{
-        width: 85vw;
+        width: 84vw;
         margin-top: 0vw;
-        font-size: 2vw;
-    }
-    .teachers__description{
-        width:80vw;
-        height: 20vh;
-    }
-    .teachers__img{
-        width: 20vw;
-    }
-    .teachers__title{
         font-size: 2.4vw;
     }
+    .interval{
+        padding: 30vw 0px 30vw 0px;
+    }
+    .interval__img{
+        width: 60vw;
+    }
+    .interval__text{
+        font-size: 3vw;
+    }
+    .teachers{
+        margin-top: 8vh;
+    }
+    .teachers__description{
+        width:84vw;
+        height: 26vh;
+        flex-flow: column wrap;
+        justify-self: center;
+    }
+    .teachers__img{
+       margin-top: 2vw;
+        width: 25vw;
+        height: 20vh;
+    }
+    .teachers__title{
+        font-size: 3vw;
+        font-weight:bold;
+    }
     .teachers__text{
+        font-size: 2.4vw;
+        width: 50vw;
+        font-weight: normal;
+    }
+    .education{
+        margin: 8vh 0px 8vh 0px;
+    }
+    .modalities__group1{
+        width:84vw;
+    }
+    .modalities__img{
+        width:84vw;
+        height: 36vh;
+    }
+    .modalities__about{
+        width:35vw;
+        height:36vh;
+    }
+    .modalities__title{
+        font-size: 4vw;
+    }
+    .modalities__age{
+        font-size: 2.2vw;
+    }
+    .modalities__explanation{
         font-size: 2vw;
+    }
+
+    .student_voice{
+        margin: 8vh 0px 8vh 0px;
+    }
+    
+    /* section comments*/
+    .comments{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border: solid 3px #378E9C;
+        width: 20vw;
+        height: 20vw;
+        margin-top: 1vw;
+        color: #06152b;
+        position: relative;
+        
     }
     .comments{
         width: 70vw;
-    
-        font-size: 2vw;
-    }
-    .contact{
-        padding: 0px;
-    }
-    .contact__telephone{
-        padding: 2vw;
-    }
-    .contact__address{
-        padding: 2vw;
-    }
-    .contact__instagram{
-        padding: 2vw;
-    }
-    
+        font-size: 3vw;
+    }  
 }
 
