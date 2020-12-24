@@ -11,13 +11,16 @@
 <body>
     <header id="header">
         <img class="header__img" src="Imagens/LogoCiranda.png" alt="Logo">
-        <button class="header__list__menu">
+        <button class="header__list__menu" id="header__list">
             <img class="header__list__img" src="Imagens/menu.png" alt="Icone menu">
         </button>
         <nav class="header__menu flex__spacearound">
             <ul class="menu flex__spacearound">
-                    <li class="menu__items flex__spacearound select">
+                    <li class="menu__items flex__spacearound select" >
                         <a class="menu__link" href=#SOBRE>SOBRE</a>
+                    </li>
+                    <li class="menu__items flex__spacearound">
+                        <a class="menu__link" href=#ENSINO>ENSINO</a>
                     </li>
                     <li class="menu__items flex__spacearound">
                         <a class="menu__link" href=#PROFESSORES>PROFESSORES</a>
@@ -71,42 +74,94 @@
         </div>
     </section>
 
-    <section class="interval flex__column">
-        <img class="interval__img"src="Imagens/dancarina.png" alt="Imagem dançarina">
-        <p class="interval__text">Venha fazer parte do nosso estúdio</p>
+    <section class="education flex__column" id="ENSINO">
+        <h1 class="title"> ENSINO</h1>
+            <div class="education__banner">
+                <div class="education__bannerText">   
+                    <p class="education__text">
+                        Dançar:</br>
+                        Faz muito bem!
+                    </p> 
+                </div>
+                <div class="education__bannerImg"> 
+                    <img class="education__img" src="Imagens/educationImg1.jpg" alt="Imagem dançarina">
+                </div>
+                <div class="education__bannerImg"> 
+                    <img class="education__img" src="Imagens/educationImg2.jpg" alt="Imagem dançarina">
+                </div>
+                <div class="education__bannerText">   
+                    <p class="education__text education__text--fontSize">
+                        Ciranda Estúdio de Dança acredita na construção de conhecimento atráves da dança, desenvolvendo em cada aluno sua criatividade, 
+                        com o aprimoramento das habilidades básicas, dos padrões fundamentais do movimento, no desenvolvimento das potencialidades.
+                    </p> 
+                </div>
+                <div class="education__bannerText">   
+                    <p class="education__text education__text--fontSize">
+                        A dança trata do resgate da própria personalidade, do contato com o lado mais humano através da expressão
+                        artística: o indivíduo se expressa e se torna capaz através da Arte que produz e que lhe devolve toda a
+                        sua potencialidade de viver e de se realizar plenamente.
+                    </p> 
+                </div> 
+                <div class="education__bannerImg"> 
+                    <img class="education__img" src="Imagens/educationImg3.jpg" alt="Imagem dançarina">
+                </div>
+                <div class="education__bannerImg"> 
+                    <img class="education__img" src="Imagens/educationImg4.jpg" alt="Imagem dançarina">
+                </div>
+
+                <div class="education__bannerText">   
+                    <p class="education__text education__text--fontSize">
+                        O indivíduo é capaz de demonstrar aquilo que ele pensa, que ele entende, ou seja, ele é capaz de demonstrar o seus 
+                        conhecimentos e habilidades, de maneira mais transparente possível, 
+                        ele se expõe por completo.
+                    </p> 
+                </div>
+                
+                <div class="education__bannerText">   
+                    <p class="education__text education__text--fontSize">
+                        Além de realizar um ótimo execício físico para sua saúde. Pois, a dança traz vários os benefícios para a mente e para o corpor.
+                        A dança reduz os níveis de estresse, melhora o humor e a autoestima, aperfeiçoa a memória, melhora a postura, favorece a perda de calorias,
+                        combate a depressão, tonifica os músculos.
+                    </p> 
+                </div>
+                <div class="education__bannerImg"> 
+                    <img class="education__img" src="Imagens/educationImg5.jpg" alt="Imagem dançarina">
+                </div>
+
+
+            </div>
+            <section class="interval flex__column">
+                <img class="interval__img"src="Imagens/dancarina.png" alt="Imagem dançarina">
+                <p class="interval__text">Venha fazer parte do nosso estúdio</p>
+            </section>  
+    </section>
+            </section>  
     </section>
 
     <section class="teachers flex__column" id="PROFESSORES">
         <h1 class="title">PROFESSORES</h1>
         <div class="flex__spacearound element--width">
             <div class="teachers__description  ">
-                <img class="teachers__img" id="dancarina"src="Imagens/professoras.png" alt="Imagem dançarina">
+                <img class="teachers__img" id="dancarina"src="Imagens/prof2.jpg" alt="Imagem dançarina">
                 <h3 class="teachers__title" >Bárbara Camacho</h3>
                 <p class="teachers__text">
                     Graduanda do Curso de Licenciatura em Dança pela Universidade Federal de Minas Gerais, participou de inúmeros concursos e cursos de danças visano sua qualificação enquanto professora-artística. Possui ampla experiência no campo da dança com público diverso. Atualmente desenvolve seu trabalho em estúdio de dança, na escola básica e projetos sociais.
                 </p>
             </div>
             <div class="teachers__description" >
-                <img class="teachers__img" id="dancarina"src="Imagens/professoras.png" alt="Imagem dançarina">
+                <img class="teachers__img" id="dancarina"src="Imagens/prof.jpg" alt="Imagem dançarina">
                 <h3 class="teachers__title">Mariana Rodrigues</h3>
                 <p class="teachers__text">
                     Graduanda do Curso de Licenciatura em Dança pela Universidade Federal de Minas Gerais, participou de inúmeros concursos e cursos de danças visano sua qualificação enquanto professora-artística. Possui ampla experiência na área de ensino da dança com público diverso, que vai do infantil ao adulto, escola de ensino básico e estúdio de dança. 
                 </p>
             </div>
             <div class="teachers__description ">
-                <img class="teachers__img" src="Imagens/professoras.png" alt="Imagem dançarina">
+                <img class="teachers__img" src="Imagens/prof1.jpg" alt="Imagem dançarina">
                 <h3 class="teachers__title">Mateus Augusto</h3>
                 <p class="teachers__text">
                      É professor e coreógrafo de Danças Urbanas há treze anos, fez diversas cursos com professores de renome nacionais e internacionais. Participou de concurso e competições pelo Brasil, ganhou premiações com seu atual grupos de dança “Goerê é como melhor grupo e melhor dançarino.
                 </p>
             </div>
-        </div>
-    </section>
-
-    <section class="education flex__column" id="ENSINO">
-        <h1 class="title">ENSINO</h1>
-        <div>
-            ciranda estudio de dança que acredita na construção da arte a partir de pessoas interessadas na dança, acreditamos na quebra de padrão oferecida pelo povo, idade, genero, 
         </div>
     </section>
 
@@ -203,3 +258,5 @@
       
     </footer>
 </body>
+<script src="JS/Ciranda.js"></script>
+</html>

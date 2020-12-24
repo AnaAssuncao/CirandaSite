@@ -92,7 +92,8 @@
     background-color: #E5F0FF;
     border: solid 1px rgb(57,144,156);
     border-radius: 10px;
-    padding: 0.6vw;    
+    padding: 0.6vw;   
+    z-index: 2; 
 }
 .icone__img{   
     margin: 0.2vw; 
@@ -101,7 +102,7 @@
 }
 /* section destaque */
 .banner{
-    margin-top: 11vw;
+    margin-top: 10vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -109,7 +110,7 @@
 } 
 .banner__title{
     color: rgb(130,184,193,1);  
-    margin-bottom: 2.1vw;
+    margin-bottom: 2vw;
     width: 100%;
     font-size: 2.8vw;
     line-height: 2.5vw;
@@ -163,16 +164,16 @@
     align-items: center;
     padding: 1vw;
     border: solid 4px #378E9C;
-    height: 44vw;
+    height: 45vw;
     border-radius: 30px;
     margin: 1vw;
     width: 40vw;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
 }
 .teachers__img{
-    width: 20vw;
-    height: 20vw;
-    padding: 1vw;
-    border: solid 1px #303C4C;
+    width: 22vw;
+    height: 22vw;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
 }
 .teachers__title{
     font-size: 1.8vw;
@@ -182,6 +183,42 @@
 .teachers__text{
     font-size: 1.2vw;
     color: #06152b;
+}
+
+/* section education*/
+.education{ 
+    position: relative;
+    margin-top: 8vw;
+}
+.education__banner{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
+}
+.education__bannerText{
+    flex-grow: 1;
+    width:40vw;
+    height:50vh;
+    background:  #ACE1DF 3.18%;
+    display: flex;
+    align-items: center;  
+}
+.education__text{
+    color:#06152b;
+    font-size: 2.6vw;
+    margin: 0vw 3vw 0vw 2vw;
+}
+.education__bannerImg{
+    width: 50vw;
+    height:50vh;
+}
+.education__img{
+    width:100%; 
+    height:100%;
+}
+.education__text--fontSize{
+    font-size: 1.4vw;
 }
 
 /* section modalities*/
@@ -295,8 +332,8 @@
   .contact__map{
       border: solid 5px #fff;
       margin: 1vw;
-      width:6vw;
-      height:6vw;
+      width:30vw;
+      height:42vh;
   }
   .contact__return{
       width:5vw;
@@ -346,7 +383,8 @@
     }
     .icone__contact{
         position: fixed;
-        padding: 0.6vw;      
+        padding: 0.6vw; 
+        top:50vw;     
     }
     .icone__img{  
         margin: 1vw;  
@@ -377,7 +415,7 @@
         font-size: 2.4vw;
     }
     .interval{
-        padding: 30vw 0px 30vw 0px;
+        padding: 0vw 0px 0vw 0px;
     }
     .interval__img{
         width: 60vw;
@@ -385,6 +423,22 @@
     .interval__text{
         font-size: 3vw;
     }
+
+    .education__bannerText{
+        width:30vw;
+        height:60vh;
+    }
+    .education__text{
+        font-size: 4vw;
+    }
+    .education__bannerImg{
+        width: 60vw;
+        height:60vh;
+    }
+    .education__text--fontSize{
+        font-size: 2.6vw;
+    }
+
     .teachers{
         margin-top: 8vw;
     }
@@ -500,4 +554,30 @@
         left:23vw;
     }
 }
+.header__menu--small{
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
+    width: 100vw;
+    height: 8vh;
+    position: absolute;
+    top:10vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+}
+.menu__items--small{
+    display: block;
+    min-width: 4.7vw;
+    height: 3vw;
+    text-align: center;
+    list-style-type: none;
+    padding:0px 0.6vw 0px 0.6vw;
 
+}
+.menu__link--small{  
+    text-decoration: none;
+    color: rgb(57,144,156);   
+    font-size: 2vw;
+    line-height: 0.9vw;
+}
