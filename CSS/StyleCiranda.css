@@ -62,9 +62,14 @@
     line-height: 0.9vw;
 }
 .select{
-    margin-top: 0.18vw;
-    border-bottom: solid 0.18vw rgb(41, 107, 116);
+    background-color: rgb(200,250, 250);
+    min-width: 4.7vw;
+    height: 3vw;
+    text-align: center;
+    /* margin-top: 0.18vw; */
+    /* border-bottom: solid 0.18vw rgb(41, 107, 116); */
 }
+.menu__items--width:hover,
 .menu__items:hover{
    background-color: rgb(200,250, 250);
 } 
@@ -341,6 +346,10 @@
       bottom: 2vw;
       left:4vw;
   }
+  .header__menu--width{
+    display: none;
+}
+
 
   @media(max-width: 1000px){
     .menu__items{
@@ -423,20 +432,23 @@
     .interval__text{
         font-size: 3vw;
     }
-
+    .education{
+        margin: 8vw 0px 8vw 0px;
+    }
     .education__bannerText{
-        width:30vw;
-        height:60vh;
+        width:35vw;
+        height:35vh;
     }
     .education__text{
         font-size: 4vw;
     }
     .education__bannerImg{
-        width: 60vw;
-        height:60vh;
+        width: 55vw;
+        height:35vh;
+        padding-left:0.5vw ;
     }
     .education__text--fontSize{
-        font-size: 2.6vw;
+        font-size: 2.2vw;
     }
 
     .teachers{
@@ -462,9 +474,6 @@
         font-size: 2.4vw;
         width: 50vw;
         font-weight: normal;
-    }
-    .education{
-        margin: 8vw 0px 8vw 0px;
     }
     .modalities__group1{
         width:84vw;
@@ -553,31 +562,30 @@
         bottom: 4vw;
         left:23vw;
     }
+    .header__menu--width{
+        display: block;
+        background-color: #fff;
+        box-shadow: 2px 2px 20px rgb(193, 220, 224); 
+        width: 100vw;
+        height: 8vh;
+        position: absolute;
+        top:10vw;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+    }
+    .menu__items--width{
+        min-width: 6vw;
+        height: 4vw;
+        text-align: center;
+        padding:0px 2vw 0px 2vw;
+    }
+    .menu__link--width{  
+        text-decoration: none;
+        color: rgb(57,144,156);   
+        font-size: 2.4vw;
+        line-height: 0.9vw;
+    }    
 }
-.header__menu--small{
-    background-color: #fff;
-    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
-    width: 100vw;
-    height: 8vh;
-    position: absolute;
-    top:10vw;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 2;
-}
-.menu__items--small{
-    display: block;
-    min-width: 4.7vw;
-    height: 3vw;
-    text-align: center;
-    list-style-type: none;
-    padding:0px 0.6vw 0px 0.6vw;
 
-}
-.menu__link--small{  
-    text-decoration: none;
-    color: rgb(57,144,156);   
-    font-size: 2vw;
-    line-height: 0.9vw;
-}
