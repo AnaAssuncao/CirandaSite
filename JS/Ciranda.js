@@ -59,3 +59,38 @@ function openMenu(menu){
         menu.isClickedButtom=false;
     }
 }
+
+// dance
+const balletDance = {
+    section: document.querySelector("#dance"),
+    img:["BalletDance1","BalletDance2","BalletDance3","BalletDance4","BalletDance5","BalletDance6","BalletDance7"],
+    elementImg: []
+}
+teste(0);
+function teste (index){
+    renderDanceBallet(balletDance.img[index]);
+    renderDanceBallet(balletDance.img[index+1]);
+    renderDanceBallet(balletDance.img[index+2]);
+     setTimeout((()=>{
+        balletDance.elementImg=derenderDanceBallet(balletDance);
+            teste(index)
+        }),5000);
+}
+
+function renderDanceBallet(imgDancer){
+    const a = document.createElement('img');
+    a.classList.add("dance__balletImg");
+    a.src=`Imagens/${imgDancer}.png`;
+    balletDance.elementImg.push(a);
+    balletDance.section.appendChild(a);
+}
+
+function derenderDanceBallet(balletDance){
+    debugger;
+    balletDance.elementImg.forEach((imgDancer)=>{
+        balletDance.section.removeChild(imgDancer);
+    });
+    balletDance.img.push(balletDance.img[0])
+    balletDance.img.shift() 
+    return elementsImg = [];
+}
