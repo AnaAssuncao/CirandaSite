@@ -273,7 +273,6 @@
 }
 .modalities__description{
     position: absolute;
-    background: rgba(232, 183, 255, 0.71);
     top:0px;
     right:0px;
     width:25vw;
@@ -353,15 +352,13 @@
     list-style: none;
     color: #06152b;
 }
-.instagram__images{
-    display: grid;
-    grid-template-columns: repeat(3, 8vw);
-    grid-template-rows: repeat(3, 8vw);
+.instagram__img{
+    margin: 0.5vw;
 }
-/* .instagram__iframe{
-    width:30vw;
-    height:42vh;
-} */
+.instagram__iframe{
+    width:25vw;
+    height:25vw;
+}
 .contact__address{
     align-items: center;
     padding: 0px;
@@ -604,11 +601,12 @@
         margin-left: 2vw;   
         font-size: 2.6vw;
     }
-    .instagram__images{
-        margin-top: 1vw;
-        display: grid;
-        grid-template-columns: repeat(3, 15vw);
-        grid-template-rows: repeat(3, 16vw);
+    .instagram__img{
+        margin-top: 2vw;
+    }
+    .instagram__iframe{
+        width:45vw;
+        height:45vw;
     }
     .contact__instagram__link{
         font-size: 2.4vw;

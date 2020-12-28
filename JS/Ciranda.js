@@ -114,8 +114,10 @@ const modalities = {
 "...",
 "...",
 "..."],
+    color:["232, 183, 255, 0.7","64, 68, 96, 0.4","225, 198, 179, 0.7","232, 183, 255, 0.7","64, 68, 96, 0.6",
+    "104, 165, 104, 0.7","104, 165, 104, 0.7", "13, 114, 110, 0.7"],
     elementSelect:null,
-    structureDescription: ["title","age","explanation"],
+    structureDescription: ["title","age","explanation"],    
     elementCreateDescription: ["h1", "p","p"],
     addClass:["modalities__title","modalities__age","modalities__explanation"]
 }
@@ -175,6 +177,7 @@ function illustrateModalityInformation(modalitiesGroup,numberIndex,modalities){
     const modDescription = document.createElement('div');
     modDescription.classList.add("flex__column");
     modDescription.classList.add("modalities__description");
+    modDescription.style.background = `rgba(${modalities.color[numberIndex]})`
     modGroupInformation.appendChild(modDescription); 
 
     modalities.elementCreateDescription.forEach((element,index)=>{
