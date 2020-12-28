@@ -211,7 +211,7 @@
     box-shadow: 2px 2px 20px rgb(193, 220, 224); 
 }
 .education__bannerText{
-    flex-grow: 1;
+    flex-grow: 2;
     width:40vw;
     height:50vh;
     background:  #ACE1DF 3.18%;
@@ -474,15 +474,14 @@
     }
     .education__bannerText{
         width:35vw;
-        height:38vh;
+        height:38vw;
     }
     .education__text{
         font-size: 2.4vw;
     }
     .education__bannerImg{
         width: 55vw;
-        height:38vh;
-        padding-left:0.5vw ;
+        height:38vw;
     }
     .education__text--fontSize{
         font-size: 2vw;
