@@ -248,17 +248,23 @@
     margin:1vw;
 }
 .modalities__item{
-    min-width: 5vw;
-    height: 3.5vw;
+    min-width: 6vw;
+    height: 4vw;
     text-align: center;
     padding:0.4px 0.6vw 0.4px 0.6vw;
     color: rgb(57,144,156);   
-    font-size: 1.2vw;
+    font-size: 1.5vw;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
 }
 .modalities__select{
     box-shadow: 2px 2px 20px rgb(193, 220, 224);
 }
 #modalities__group{
+    position: relative;
+}
+.modalities__information{
     position: relative;
 }
 .modalities__img{
@@ -277,7 +283,8 @@
 }
 .modalities__title{
     color:#202C2C;
-    font-size: 3vw;
+    font-size: 3.2vw;
+    text-align: center;
 }
 .modalities__age{
     color:#202C2C;
@@ -467,18 +474,18 @@
     }
     .education__bannerText{
         width:35vw;
-        height:35vh;
+        height:38vh;
     }
     .education__text{
-        font-size: 2.2vw;
+        font-size: 2.4vw;
     }
     .education__bannerImg{
         width: 55vw;
-        height:35vh;
+        height:38vh;
         padding-left:0.5vw ;
     }
     .education__text--fontSize{
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
     .teachers{
         margin-top: 8vw;
@@ -504,14 +511,21 @@
         width: 50vw;
         font-weight: normal;
     }
-    .modalities__group1{
-        width:84vw;
+    #modalities__list{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .modalities__item{
+        min-width: 18vw;
+        height: 6vh;
+        margin: 1vw;
+        font-size: 2.4vw;
     }
     .modalities__img{
         width:84vw;
         height: 70vw;
     }
-    .modalities__about{
+    .modalities__description{
         width:38vw;
         height:70vw;
     }
