@@ -23,25 +23,27 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    padding: 3vw;
+    align-items: center;
 }
+
 
 /* section header */
 #header{
     /* border-bottom: solid 1px rgb(173, 230, 238); */
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
     position: fixed;
     top:0px;
     width: 100vw;
-    height: 7vw;
+    height: 6vw;
     box-shadow: 2px 2px 20px rgb(193, 220, 224); 
     z-index: 2;
 }
 .header__img{
-    width: 15vw;
-    margin: 0.6vw 0px 0.6vw 1vw;
+    height: 90%;    
+    margin-left: 2vw;
 }
 .header__list__menu{
     display: none;
@@ -58,16 +60,13 @@
 .menu__link{  
     text-decoration: none;
     color: rgb(57,144,156);   
-    font-size: 1.2vw;
-    line-height: 0.9vw;
-}
+    font-size: 1vw;
+  }
 .menu__select{
     background-color: rgb(200,250, 250);
     min-width: 4.7vw;
     height: 3vw;
     text-align: center;
-    /* margin-top: 0.18vw; */
-    /* border-bottom: solid 0.18vw rgb(41, 107, 116); */
 }
 .menu__items--width:hover,
 .menu__items:hover{
@@ -78,8 +77,8 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    height: 4.74vw;
-    margin:0px 2vw 0px 5.4vw;
+    height: 4vw;
+    margin:0px 3vw 0px 5vw;
     padding: 1vw;
     background-color: rgb(57,144,156);
     border-radius: 0.3vw;
@@ -87,7 +86,7 @@
 }
 .menu__button__link{
     color: #ffffff;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
 }
 
 .icone__contact{
@@ -107,47 +106,92 @@
 }
 /* section destaque */
 .banner{
-    margin-top: 10vw;
+    padding-top: 8vw;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 } 
 .banner__title{
     color: rgb(130,184,193,1);  
     margin-bottom: 2vw;
-    width: 100%;
-    font-size: 2.8vw;
-    line-height: 2.5vw;
+    width: 80vw;
+    font-size: 2.6vw;
     text-align: center;
 }
+.banner__images{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    width:80vw;
+}
 .banner__img{
-    width:35vw;
-    min-width: 29.66vw;
+    width:40vw;
+    min-width: 30vw;
 }
 
 /* section description */
 .description{
-    margin-top: 5vw;
+    margin-top: 4vw;
     height: 40vw;
     background: linear-gradient(270deg, #378E9C 3.18%, #7AD4D1 51.42%, #378E9C 103.84%);
     box-shadow: 2px 0px 2px 3px rgb(200, 243, 250);
 }
+.description__banner{
+    width:80vw;
+}
 .description__text{
-    font-size:1.4vw;
+    font-size:1vw;
     color: #06152b;
-    padding-top:2vw;
-    width: 50vw;
+    margin-right: 2vw;
+    width: 40vw;
 }
 .description__video{
     width:40vw;
-    height: 25vw;
-    padding-top:2vw;
+    height: 21vw;
+}
+
+/* section education*/
+.education{ 
+    position: relative;
+    padding-top: 6vw;
+}
+.education__banner{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
+}
+.education__bannerText{
+    flex-grow: 2;
+    width:30vw;
+    height:50vh;
+    background:  #ACE1DF 3.18%;
+    display: flex;
+    align-items: center;  
+}
+.education__text{
+    color:#06152b;
+    font-size: 2.6vw;
+    margin: 0vw 3vw 0vw 2vw;
+}
+.education__bannerImg{
+    width: 30vw;
+    height:50vh;
+}
+.education__img{
+    width:100%; 
+    height:100%;
+    /* border-radius: 40%; */
+}
+.education__text--fontSize{
+    font-size: 1.4vw;
 }
 
 /* section interval */
 .interval{
-    align-items: center;
     padding: 7vw;
 }
 .interval__img{
@@ -162,77 +206,35 @@
 }
 
 /* section teachers */
+.teachers__informative{
+    width: 80vw;
+}
 .teachers__description{
     display: flex;
     flex-flow: column nowrap;
     justify-self: start;
     align-items: center;
     padding: 1vw;
+    width: 30vw;    
     border: solid 4px #378E9C;
-    height: 45vw;
     border-radius: 30px;
     margin: 1vw;
-    width: 40vw;
     box-shadow: 2px 2px 20px rgb(193, 220, 224); 
 }
 .teachers__img{
-    width: 22vw;
-    height: 22vw;
+    height: 20vw;
     box-shadow: 2px 2px 20px rgb(193, 220, 224); 
+    border-radius: 50%;
 }
 .teachers__title{
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     padding: 1vw;
     color: #06152b;
 }
 .teachers__text{
-    font-size: 1.2vw;
+    font-size: 1vw;
+    
     color: #06152b;
-}
-#dance{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2vw;
-}
-.dance__balletImg{  
-    padding: 0vw 0w 0vw 0vw;
-    width:5vw;
-    height: 7vw;
-}
-/* section education*/
-.education{ 
-    position: relative;
-    margin-top: 2vw;
-}
-.education__banner{
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    box-shadow: 2px 2px 20px rgb(193, 220, 224); 
-}
-.education__bannerText{
-    flex-grow: 2;
-    width:40vw;
-    height:50vh;
-    background:  #ACE1DF 3.18%;
-    display: flex;
-    align-items: center;  
-}
-.education__text{
-    color:#06152b;
-    font-size: 2.6vw;
-    margin: 0vw 3vw 0vw 2vw;
-}
-.education__bannerImg{
-    width: 50vw;
-    height:50vh;
-}
-.education__img{
-    width:100%; 
-    height:100%;
-}
-.education__text--fontSize{
-    font-size: 1.4vw;
 }
 
 /* section modalities*/
@@ -241,19 +243,23 @@
     flex-flow: column wrap;
     align-items: center;
 }
+#MODALIDADES{
+    margin-top: 4vw;
+}
 #modalities__list{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:1vw;
+    margin:0.6vw;
+    width: 80vw;
 }
 .modalities__item{
     min-width: 6vw;
-    height: 4vw;
+    height: 3vw;
     text-align: center;
     padding:0.4px 0.6vw 0.4px 0.6vw;
     color: rgb(57,144,156);   
-    font-size: 1.5vw;
+    font-size: 1vw;
     cursor:pointer;
     display: flex;
     align-items: center;
@@ -282,22 +288,29 @@
 }
 .modalities__title{
     color:#202C2C;
-    font-size: 3.2vw;
+    font-size: 2.6vw;
+    margin-top:1vw;
     text-align: center;
 }
 .modalities__age{
     color:#202C2C;
     margin-top: 1vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 .modalities__explanation{
     color:#202C2C;
     margin-top: 4vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 /* section comments*/
+#VOZDOSALUNOS{
+    margin-top:4vw;
+}
 .comments{
+    width:80vw;
+}
+.comments__box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,6 +337,7 @@
 }
 /* section contact */
 .contact{
+    margin-top:4vw;
     padding: 1vw;
     background-color: #378E9C;
     align-items: flex-start;
@@ -340,7 +354,10 @@
 }
 .contact__phone{
     color: #06152b;
-   
+}
+.contact__whatsapp{
+    width: 2vw;
+    height: 2vw;
 }
 .contact__number{
     margin: 0.4vw 0px 0.6vw 0.2vw;
@@ -353,7 +370,7 @@
     color: #06152b;
 }
 .instagram__img{
-    margin: 0.5vw;
+    margin-top: 0.5vw;
 }
 .instagram__iframe{
     width:25vw;
@@ -366,8 +383,8 @@
   }
   .contact__map{
       border: solid 5px #fff;
-      margin: 1vw;
-      width:30vw;
+      margin-top: 1vw;
+      width:35vw;
       height:42vh;
   }
   .contact__return{
@@ -418,10 +435,9 @@
         line-height: 0.9vw;
     }    
 }
-@media(max-width: 1197px)
+@media(max-width: 1000px)
 {
     .element--width{
-        /* margin-top: 3.6vw; */
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -430,18 +446,15 @@
         font-size: 4vw;
     }
     #header{
-        height: 9vw;
-    }
-    .header__img{
-        width:20vw;
-        height: 8vw;
+        height: 7vw;
     }
     .menu__button__contact{
-        height: 6vw; 
+        height: 5vw; 
         padding: 2vw;   
+        margin:0px 5vw 0px 5vw;
     }
     .menu__button__link{
-        font-size: 2vw;
+        font-size: 1.6vw;
     }
     .icone__contact{
         position: fixed;
@@ -457,27 +470,44 @@
         margin-top: 3vw;
         font-size: 3.4vw;
     }
+    .banner__images{
+        width:80vw;
+    }
     .banner__img{
-        width:70vw;
-        min-width: 40vw;
+        width:100vw;
+        min-width: 70vw;
     }
     .description{
-        height: 140vw;
+        height: 105vw;
         margin-top: 8vw;
         border-radius: 30vw;
     } 
     .description__video{
-        width:84vw;
-        height: 60vw;
+        width:80vw;
+        height: 50vw;
         padding-top:5vw;
     }
     .description__text{
-        width: 84vw;
+        width: 80vw;
         margin-top: 0vw;
-        font-size: 2.4vw;
+        font-size: 2.2vw;
     }
-    .interval{
-        padding: 0vw 0px 0vw 0px;
+    .education{
+        margin: 8vw 0px 8vw 0px;
+    }
+    .education__bannerText{
+        width:35vw;
+        height:35vw;
+    }
+    .education__text{
+        font-size: 2.4vw;
+    }   
+    .education__bannerImg{
+        width: 30vw;
+        height:35vw;
+    }
+    .education__text--fontSize{
+        font-size: 2.2vw;
     }
     .interval__img{
         width: 60vw;
@@ -485,48 +515,27 @@
     .interval__text{
         font-size: 3vw;
     }
-    .dance__balletImg{  
-        width:10vw;
-        height: 15vw;
-    }
-    .education{
-        margin: 8vw 0px 8vw 0px;
-    }
-    .education__bannerText{
-        width:35vw;
-        height:38vw;
-    }
-    .education__text{
-        font-size: 2.4vw;
-    }
-    .education__bannerImg{
-        width: 55vw;
-        height:38vw;
-    }
-    .education__text--fontSize{
-        font-size: 2vw;
-    }
     .teachers{
         margin-top: 8vw;
     }
     .teachers__description{
-        width:84vw;
-        height: 48vw;
+        width:80vw;
+        height: 40vw;
         flex-flow: column wrap;
         justify-self: center;
     }
     .teachers__img{
-       margin-top: 4vw;
+       margin-top: 2vw;
         width: 25vw;
-        height: 38vw;
+        height: 33vw;
     }
     .teachers__title{
         margin-top: 0.6vw;
-        font-size: 3vw;
+        font-size: 2.8vw;
         font-weight:bold;
     }
     .teachers__text{
-        font-size: 2.4vw;
+        font-size: 2.2vw;
         width: 50vw;
         font-weight: normal;
     }
@@ -541,7 +550,7 @@
         font-size: 2.4vw;
     }
     .modalities__img{
-        width:84vw;
+        width:80vw;
         height: 70vw;
     }
     .modalities__description{
@@ -549,45 +558,40 @@
         height:70vw;
     }
     .modalities__title{
-        font-size: 4vw;
+        font-size: 2.8vw;
     }
     .modalities__age{
-        font-size: 2.4vw;
+        font-size: 2vw;
     }
     .modalities__explanation{
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
 
     .student_voice{
         margin: 8vw 0px 8vw 0px;
     }
-    .comments{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #fff;
-        border: solid 3px #378E9C;
-        width: 20vw;
+    .comments__box{
         height: 20vw;
         margin-top: 1vw;
-        color: #06152b;
-        position: relative;
-        border-radius: 1vw;    
+        border-radius: 1vw;  
+        width: 80vw;
+        font-size: 3vw;  
     }
-    .comments{
-        width: 70vw;
-        font-size: 3vw;
-    }  
     .contact{
         align-items: flex-start;
         flex-wrap: wrap;
         height: 110vw;
+    }
+    .contact__whatsapp{
+        width: 4vw;
+        height:4vw;
     }
     .contact__telephone{
         height: 4vw;
     }
     .contat__flexrow{
         display: flex;
+        align-items: center;
     }
     .contact__icone{
         margin:1vw;
@@ -595,7 +599,7 @@
     }
     .contact__phone{
         font-size: 2.4vw;
-        margin: 0.6vw 2vw 0px 0px;
+        margin-right: 2vw;
     }
     .contact__number{
         margin-left: 2vw;   
@@ -614,7 +618,7 @@
     }
     .contact__map{
         border: solid 5px #fff;
-        margin: 1vw;
+        margin-top: 1vw;
         width: 42vw;
         height:40vw;
     }

@@ -10,12 +10,12 @@
 </head>
 <body>
     <header id="header">
-        <img class="header__img" src="Imagens/LogoCiranda.png" alt="Logo">
-        <button class="header__list__menu" id="header__list">
-            <img class="header__list__img" src="Imagens/menu.png" alt="Icone menu">
-        </button>
-        <nav class="header__menu flex__spacearound">
-            <ul class="menu flex__spacearound">
+            <img class="header__img" src="Imagens/LogoCiranda.png" alt="Logo">
+            <button class="header__list__menu" id="header__list">
+                <img class="header__list__img" src="Imagens/menu.png" alt="Icone menu">
+            </button>
+            <nav class="header__menu flex__spacearound">
+                <ul class="menu flex__spacearound">
                     <li class="menu__items flex__spacearound" >
                         <a class="menu__link" href=#SOBRE>SOBRE</a>
                     </li>
@@ -34,7 +34,7 @@
                     <li class="flex__spacearound menu__button__contact">
                         <a class="menu__link menu__button__link" href=#CONTATOS>CONTATOS</a>
                     </li>
-                </ul>
+                 </ul>
             </nav>
      </header>
 
@@ -53,13 +53,16 @@
 
     <main class="banner element--width" id="banner">
         <h1 class="banner__title">PERMITA-SE DANÇAR, VENHA SE DIVERTIR NO CIRANDA!</h1>
-        <img class="banner__img" src="Imagens/destaque1.png" alt="Imagem dançarinas">
-        <img class="banner__img" src="Imagens/destaque2.png" alt="Imagem dançarinas">
+        <div class="banner__images">
+            <img class="banner__img" src="Imagens/destaque1.png" alt="Imagem dançarinas">
+            <img class="banner__img" src="Imagens/destaque2.png" alt="Imagem dançarinas">
+        </div>
+
     </main>
 
     <section class="description flex__column" id="SOBRE">
         <h1 class="title">SOBRE</h1>
-        <div class="flex__spacearound element--width">
+        <div class="description__banner flex__spacearound element--width">
             <p class="description__text">Uma escola de Dança localizada no Bairro Jardim Riacho em Contagem.<br>
                 <br>
                 Os clientes são os alunos e pais de alunos, o intuito é atender ao público infantil, juvenil e adulto através da arte da Dança.<br>
@@ -127,21 +130,17 @@
                 <div class="education__bannerImg"> 
                     <img class="education__img" src="Imagens/educationImg5.jpg" alt="Imagem dançarina">
                 </div>
-
-
             </div>
-            <section class="interval flex__column">
+            <div class="interval flex__column">
                 <img class="interval__img"src="Imagens/dancarina.png" alt="Imagem dançarina">
                 <p class="interval__text">Venha fazer parte do nosso estúdio</p>
-            </section>  
-    </section>
-            </section>  
+            </div>  
     </section>
 
     <section class="teachers flex__column" id="PROFESSORES">
         <h1 class="title">PROFESSORES</h1>
-        <div class="flex__spacearound element--width">
-            <div class="teachers__description  ">
+        <div class="teachers__informative flex__spacearound element--width">
+            <div class="teachers__description">
                 <img class="teachers__img" id="dancarina"src="Imagens/prof2.jpg" alt="Imagem dançarina">
                 <h3 class="teachers__title" >Bárbara Camacho</h3>
                 <p class="teachers__text">
@@ -159,7 +158,7 @@
                 <img class="teachers__img" src="Imagens/prof1.jpg" alt="Imagem dançarina">
                 <h3 class="teachers__title">Mateus Augusto</h3>
                 <p class="teachers__text">
-                     É professor e coreógrafo de Danças Urbanas há treze anos, fez diversas cursos com professores de renome nacionais e internacionais. Participou de concurso e competições pelo Brasil, ganhou premiações com seu atual grupos de dança “Goerê é como melhor grupo e melhor dançarino.
+                    É professor e coreógrafo de Danças Urbanas há treze anos, fez diversas cursos com professores de renome nacionais e internacionais. Participou de concurso e competições pelo Brasil, ganhou premiações com seu atual grupo de dança “Goerê" como melhor grupo e melhor dançarino. Possui ampla experiência na área de ensino da dança com público diverso.
                 </p>
             </div>
         </div>
@@ -177,18 +176,18 @@
 
     <section class="flex__column student_voice" id="VOZDOSALUNOS">
         <h1 class="title">VOZ DOS ALUNOS</h1>
-        <div class="flex__spacearound element--width">
-            <div class="comments">
+        <div class="comments flex__spacearound element--width">
+            <div class="comments__box">
                 <img class="comments__img__init" src="Imagens/InicioAspas.png">
                 <p class="comments__text"> "foi bom" </p> 
                 <img class="comments__img__end" src="Imagens/FinalAspas.png">       
             </div>
-            <div class="comments"> 
+            <div class="comments__box"> 
                 <img class="comments__img__init" src="Imagens/InicioAspas.png">
                 <p class="comments__text">muito bom</p>
                 <img class="comments__img__end" src="Imagens/FinalAspas.png">   
             </div>  
-            <div class="comments"> 
+            <div class="comments__box"> 
                 <img class="comments__img__init" src="Imagens/InicioAspas.png">
                 <p class="comments__text">bom demais </p>
                 <img class="comments__img__end" src="Imagens/FinalAspas.png">   
@@ -205,7 +204,7 @@
                 <p class="contact__phone"> Professora Bárbara</p>
                 <div class="flex__spacearound ">
                     <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">     
-                        <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
+                        <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                     </a>
                     <a class="contact__phone contact__number" href="tel:031999396954">(31) 99939-6954</a>
                 </div>
@@ -214,7 +213,7 @@
                 <p class="contact__phone"> Professora Mariana</p>
                 <div class="flex__spacearound "> 
                     <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">
-                        <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
+                        <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                     </a>
                     <a class="contact__phone contact__number" href="tel:031975023320">(31) 97502-3320 </a>
                 </div>
