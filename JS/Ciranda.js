@@ -60,41 +60,6 @@ function openMenu(menu){
     }
 }
 
-// DANCER
-const balletDance = {
-    section: document.querySelector("#dance"),
-    img:["BalletDance1","BalletDance2","BalletDance3","BalletDance4","BalletDance5","BalletDance6","BalletDance7"],
-    elementImg: []
-}
-
-controlImage(0);
-function controlImage (index){
-    renderDanceBallet(balletDance.img[index]);
-    renderDanceBallet(balletDance.img[index+1]);
-    renderDanceBallet(balletDance.img[index+2]);
-     setTimeout((()=>{
-        balletDance.elementImg=derenderDanceBallet(balletDance);
-        controlImage(index);
-        }),5000);
-}
-
-function renderDanceBallet(imgDancer){
-    const elementImgDancer = document.createElement('img');
-    elementImgDancer.classList.add("dance__balletImg");
-    elementImgDancer.src=`Imagens/${imgDancer}.png`;
-    balletDance.elementImg.push(elementImgDancer);
-    balletDance.section.appendChild(elementImgDancer);
-}
-
-function derenderDanceBallet(balletDance){
-    balletDance.elementImg.forEach((imgDancer)=>{
-        balletDance.section.removeChild(imgDancer);
-    });
-    balletDance.img.push(balletDance.img[0]);
-    balletDance.img.shift() ;
-    return elementsImg = [];
-}
-
 // MODALITIES
 const modalities = {
     img:["ModBaby.png","ModBalletInf.jpg","ModBalletJuv.jpg","ModBalletAdult.jpg","ModJazzInf.jpg","ModJazzJuv.jpg",
