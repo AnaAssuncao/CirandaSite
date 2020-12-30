@@ -289,12 +289,12 @@
 .modalities__title{
     color:#202C2C;
     font-size: 2.6vw;
-    margin-top:1vw;
+    margin-top:2vw;
     text-align: center;
 }
 .modalities__age{
     color:#202C2C;
-    margin-top: 1vw;
+    margin-top: 3vw;
     font-size: 1vw;
 }
 .modalities__explanation{
@@ -302,6 +302,18 @@
     margin-top: 4vw;
     font-size: 1vw;
     width: 80%;
+}
+.modalities__description--purple{
+    background: rgba(232, 183, 255, 0.8);
+}
+.modalities__description--blue{
+    background: rgba(64, 68, 96, 0.5);
+}
+.modalities__description--pink{
+    background: rgba(225, 198, 179, 0.9);
+}
+.modalities__description--green{
+    background: rgba(104, 165, 104, 0.9);
 }
 
 /* section comments*/

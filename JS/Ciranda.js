@@ -79,8 +79,8 @@ const modalities = {
 "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
 "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
 "O conjunto de estilos da dança de rua recebe o nome de Street Dance, esses estilos se desenvolvem na realidade gestual do indivíduo, através de movimentos coordenados e harmoniosos, o que faz do corpo uma forma de comunicação.<br><br> O aluno pode descobrir muito sobre si, se expressando de diversas maneiras a partir das diversas linguagens corporais presentes nesse universo"],
-    color:["232, 183, 255, 0.7","64, 68, 96, 0.4","225, 198, 179, 0.7","232, 183, 255, 0.9","104, 165, 104, 0.9",
-    "104, 165, 104, 0.9","104, 165, 104, 0.9", "232, 183, 255, 0.9"],
+    colorClass:["modalities__description--purple","modalities__description--blue","modalities__description--pink","modalities__description--purple",
+    "modalities__description--green","modalities__description--green","modalities__description--green","modalities__description--pink"],
     elementSelect:null,
     structureDescription: ["title","age","explanation"],    
     elementCreateDescription: ["h1", "p","p"],
@@ -142,7 +142,7 @@ function illustrateModalityInformation(modalitiesGroup,numberIndex,modalities){
     const modDescription = document.createElement('div');
     modDescription.classList.add("flex__column");
     modDescription.classList.add("modalities__description");
-    modDescription.style.background = `rgba(${modalities.color[numberIndex]})`
+    modDescription.classList.add(`${modalities.colorClass[numberIndex]}`)
     modGroupInformation.appendChild(modDescription); 
 
     modalities.elementCreateDescription.forEach((element,index)=>{
