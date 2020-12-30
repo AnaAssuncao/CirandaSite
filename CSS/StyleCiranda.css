@@ -301,6 +301,7 @@
     color:#202C2C;
     margin-top: 4vw;
     font-size: 1vw;
+    width: 80%;
 }
 
 /* section comments*/
@@ -319,7 +320,6 @@
     width: 25vw;
     height: 25vw;
     margin-top: 1vw;
-    color: #06152b;
     position: relative;
     border-radius: 2vw;  
 }
@@ -334,6 +334,19 @@
     position: absolute;
     bottom:1vw;
     right:1vw;
+}
+.comments__text{
+    font-size: 1vw;
+    color: #06152b;
+    text-align: center;
+    width: 20vw;
+}
+.comments__name{
+    font-size: 1vw;
+    font-weight:bold;
+    color: #06152b;
+    position: absolute;
+    bottom:3vw;
 }
 /* section contact */
 .contact{
@@ -571,17 +584,25 @@
         margin: 8vw 0px 8vw 0px;
     }
     .comments__box{
-        height: 20vw;
         margin-top: 1vw;
         border-radius: 1vw;  
         width: 80vw;
-        font-size: 3vw;  
+    }
+    .comments__text{
+        font-size: 2vw;
+        width: 75vw;
+    }
+    .comments__name{
+        font-size:2vw;
+        bottom:1vw;
+        right: 8vw;
     }
     .contact{
         align-items: flex-start;
         flex-wrap: wrap;
         height: 110vw;
     }
+
     .contact__whatsapp{
         width: 4vw;
         height:4vw;
