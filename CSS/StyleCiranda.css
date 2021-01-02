@@ -155,7 +155,7 @@
 /* section education*/
 .education{ 
     position: relative;
-    padding-top: 6vw;
+    padding-top: 3vw;
 }
 .education__banner{
     width: 80vw;
@@ -507,7 +507,7 @@
         min-width: 70vw;
     }
     .description{
-        height: 100vh;
+        height: 130vw;
         margin-top: 8vw;
         border-radius: 30vw;
     } 
@@ -615,8 +615,6 @@
         right: 8vw;
     }
     .contact{
-        align-items: flex-start;
-        flex-wrap: wrap;
         height: 110vw;
     }
 
