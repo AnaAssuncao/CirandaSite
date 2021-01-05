@@ -62,7 +62,7 @@ function openMenu(menu){
 
 // MODALITIES
 const modalities = {
-    img:["ModBaby.png","ModBalletInf.jpg","ModBalletJuv.jpg","ModBalletAdult.jpg","ModJazzInf.jpg","ModJazzJuv.jpg",
+    img:["ModBaby.jpg","ModBalletInf.jpg","ModBalletJuv.jpg","ModBalletAdult.jpg","ModJazzInf.jpg","ModJazzJuv.jpg",
     "ModJazzAdult.jpg","ModStreetDance.jpeg"],
     id: ["modBaby", "modBalletInf","modBalletJuv","modBalletAdul","modJazzInf","modJazzJuv","modJazzAdul",
     "modStreetDance"],
