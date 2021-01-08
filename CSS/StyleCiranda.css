@@ -358,6 +358,7 @@
     width: 20vw;
 }
 .comments__name{
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 1vw;
     font-weight:bold;
     color: #06152b;
