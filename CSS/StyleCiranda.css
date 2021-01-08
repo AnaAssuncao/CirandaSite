@@ -213,7 +213,7 @@
 .teachers__description{
     display: flex;
     flex-flow: column nowrap;
-    justify-self: start;
+    justify-content: center;
     align-items: center;
     padding: 1vw;
     width: 30vw;    
@@ -234,7 +234,6 @@
 }
 .teachers__text{
     font-size: 1vw;
-    
     color: #06152b;
 }
 
@@ -551,18 +550,16 @@
         justify-self: center;
     }
     .teachers__img{
-       margin-top: 2vw;
-        width: 25vw;
+        width: 25vw; 
         height: 33vw;
     }
     .teachers__title{
-        margin-top: 0.6vw;
-        font-size: 2.8vw;
+        font-size: 2.6vw;
         font-weight:bold;
     }
     .teachers__text{
-        font-size: 2.2vw;
-        width: 50vw;
+        font-size: 2vw;
+        width: 45vw;
         font-weight: normal;
     }
     #modalities__list{
