@@ -19,13 +19,19 @@ const handleScroll=()=>{
     },10)
 }
 
+function handleButtonContact(){
+    selectItemListMenu()
+}
+
 // ITEM MENU SELECT 
 function selectItemListMenu(item){
     if(menu.itemSelect!==null){
         menu.itemSelect.classList.remove("menu__select");
     }
+    if (item){
         menu.itemSelect = item;
         item.classList.add("menu__select");
+    }
 }
 
 // MENU MAX WIDTH 1000PX
