@@ -6,10 +6,18 @@ const menu ={
     screenSize:1000,
     listItems: Array.from(document.querySelectorAll(".menu__items"))
 }
+
 menu.listItems.forEach((item)=>
 item.addEventListener("click", () =>{
-    selectItemListMenu(item);
-}));
+    selectItemListMenu(item)
+}))
+
+const handleScroll=()=>{
+    setTimeout(()=>{
+        const scroll = window.scrollY - 100
+        window.scroll(0, scroll )
+    },10)
+}
 
 // ITEM MENU SELECT 
 function selectItemListMenu(item){
@@ -63,11 +71,11 @@ function openMenu(menu){
 // MODALITIES
 const modalities = {
     img:["ModBaby.jpg","ModBalletInf.jpg","ModBalletJuv.jpg","ModBalletAdult.jpg","ModJazzInf.jpg","ModJazzJuv.jpg",
-    "ModJazzAdult.jpg","ModStreetDance.jpeg"],
+    "ModJazzAdult.jpg","ModFitDance.jpg"],
     id: ["modBaby", "modBalletInf","modBalletJuv","modBalletAdul","modJazzInf","modJazzJuv","modJazzAdul",
-    "modStreetDance"],
+    "modFitDance"],
     title:["Ballet Baby","Ballet Infantil","Ballet Juvenil","Ballet Adulto","Jazz Infantil","Jazz Juvenil",
-    "Jazz Adulto","Dança Urbana"],
+    "Jazz Adulto","Fit Dance"],
     age:["Entre 3 e 5 anos","Entre 6 e 10 anos","Entre 11 e 14 anos","A partir de 14 anos",
     "Entre 6 e 10 anos","Entre 11 e 14 anos","A partir de 14 anos",
     "A partir de 14 anos"],
@@ -78,8 +86,8 @@ const modalities = {
 "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Sua criança irá se divertir e se desenvolver corporalmente.",
 "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
 "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
-"O conjunto de estilos da dança de rua recebe o nome de Street Dance, esses estilos se desenvolvem na realidade gestual do indivíduo, através de movimentos coordenados e harmoniosos, o que faz do corpo uma forma de comunicação.<br><br> O aluno pode descobrir muito sobre si, se expressando de diversas maneiras a partir das diversas linguagens corporais presentes nesse universo"],
-    colorClass:["modalities__description--purple","modalities__description--blue","modalities__description--pink","modalities__description--purple",
+"O Fit Dance consiste em uma dança unida a exercícios, que estimula o corpo inteiro. Por meio de aulas em que os alunos seguem os passos de dançarinos e executam determinados movimentos, o corpo é estimulado a se movimentar continuamente.É possível encontrar aulas de Fit Dance na internet, porém é mais recomendável que as aulas sejam feitas em uma academia, na presença de um instrutor, pelo caráter socializador da atividade."],
+    colorClass:["modalities__description--purple","modalities__description--green","modalities__description--pink","modalities__description--purple",
     "modalities__description--green","modalities__description--green","modalities__description--green","modalities__description--pink"],
     elementSelect:null,
     structureDescription: ["title","age","explanation"],    

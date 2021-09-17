@@ -12,7 +12,7 @@
     align-items: center;
 }
 .title{
-    font-size:2.4vw;
+    font-size:2.4rem;
     color: #303C4C;
     border-bottom: 1px solid #378E9C;
     align-self: center;
@@ -60,7 +60,7 @@
 .menu__link{  
     text-decoration: none;
     color: rgb(57,144,156);   
-    font-size: 1vw;
+    font-size: 1rem;
   }
 .menu__select{
     background-color: rgb(200,250, 250);
@@ -84,7 +84,7 @@
     border-radius: 0.3vw;
     box-shadow: 2px 2px 3px rgb(151, 235, 247);
     color: #ffffff;
-    font-size: 1.2vw;   
+    font-size: 1rem;   
 }
 .icone__contact{
     position: fixed;
@@ -108,12 +108,13 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3vw;
 } 
 .banner__title{
     color: rgb(130,184,193,1);  
-    margin-bottom: 2vw;
+    margin-bottom: 1rem;    
     width: 80vw;
-    font-size: 2.6vw;
+    font-size: 2.2rem;
     text-align: center;
 }
 .banner__images{
@@ -124,13 +125,13 @@
     width:80vw;
 }
 .banner__img{
-    width:40vw;
+    width:36vw;
     min-width: 30vw;
 }
 
 /* section description */
 .description{
-    margin-top: 4vw;
+    margin-bottom: 5vw;
     height: 40vw;
     background: linear-gradient(270deg, #378E9C 3.18%, #7AD4D1 51.42%, #378E9C 103.84%);
     box-shadow: 2px 0px 2px 3px rgb(200, 243, 250);
@@ -139,7 +140,7 @@
     width:80vw;
 }
 .description__text{
-    font-size:1vw;
+    font-size:1rem;
     color: #06152b;
     margin-right: 2vw;
     width: 40vw;
@@ -152,7 +153,6 @@
 /* section education*/
 .education{ 
     position: relative;
-    padding-top: 3vw;
 }
 .education__banner{
     width: 80vw;
@@ -174,7 +174,7 @@
 }
 .education__title{
     color:#06152b;
-    font-size: 2.6vw;
+    font-size: 2rem;
 }
 .education__bannerImg{
     width: 30vw;
@@ -187,7 +187,7 @@
 }
 .education__text{
     color:#06152b;
-    font-size: 1vw;
+    font-size: 1rem;
     margin: 0vw 5vw 0vw 5vw;
 }
 
@@ -203,7 +203,7 @@
     background: #378E9C;
     border-radius: 42px;
     color: #E5F0FF;
-    font-size: 2vw;
+    font-size: 1.6rem;
 }
 
 /* section teachers */
@@ -215,8 +215,9 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 1vw;
-    width: 30vw;    
+    padding: 1rem;
+    width: 40vw; 
+    height: 75vh;   
     border: solid 4px #378E9C;
     border-radius: 30px;
     margin: 1vw;
@@ -228,12 +229,12 @@
     border-radius: 50%;
 }
 .teachers__title{
-    font-size: 1.4vw;
+    font-size: 1.2rem;
     padding: 1vw;
     color: #06152b;
 }
 .teachers__text{
-    font-size: 1vw;
+    font-size: 0.9rem;
     color: #06152b;
 }
 
@@ -256,13 +257,13 @@
 .modalities__item{
     min-width: 6vw;
     height: 3vw;
-    text-align: center;
     padding:0.4px 0.6vw 0.4px 0.6vw;
     color: rgb(57,144,156);   
-    font-size: 1vw;
+    font-size: 1rem;
     cursor:pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .modalities__select{
     box-shadow: 2px 2px 20px rgb(193, 220, 224);
@@ -275,36 +276,36 @@
 }
 .modalities__img{
     width:60vw;
-    height:45vw;
+    height:40vw;
 }
 .modalities__description{
     position: absolute;
     top:0px;
     right:0px;
     width:25vw;
-    height:45vw;
+    height:40vw;
     justify-content: flex-start;
     align-items: center;
 }
 .modalities__title{
     color:#202C2C;
-    font-size: 2.6vw;
-    margin-top:2vw;
+    font-size: 2.2rem;
+    margin-top:3vw;
     text-align: center;
 }
 .modalities__age{
     color:#202C2C;
     margin-top: 3vw;
-    font-size: 1vw;
+    font-size: 0.9rem;
 }
 .modalities__explanation{
     color:#202C2C;
-    margin-top: 4vw;
-    font-size: 1vw;
+    margin-top: 3vw;
+    font-size: 1rem;
     width: 80%;
 }
 .modalities__description--purple{
-    background: rgba(232, 183, 255, 0.8);
+    background: rgba(215, 135, 252, 0.856);
 }
 .modalities__description--blue{
     background: rgba(64, 68, 96, 0.5);
@@ -348,18 +349,18 @@
     right:1vw;
 }
 .comments__text{
-    font-size: 1vw;
+    font-size: 0.9rem;
     color: #06152b;
     text-align: center;
     width: 20vw;
 }
 .comments__name{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 1rem;
     font-weight:bold;
     color: #06152b;
     position: absolute;
-    bottom:3vw;
+    bottom:2vw;
 }
 /* section contact */
 .contact{
@@ -387,7 +388,7 @@
 }
 .contact__number{
     margin: 0.4vw 0px 0.6vw 0.2vw;
-    font-size: 1.4vw;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 .contact__instagram__link{
@@ -428,21 +429,23 @@
     .menu__items{
         display:none;
     }
+    #header{
+        height:10vw;
+    }
     .header__list__menu{
         display: block;
         background-color: rgb(255, 255, 255);
         border: rgb(255, 255, 255);
         border-radius: 60px;
-        margin-left:10vw;
+        margin-left:5vw;
     }
     .header__menu--width{
         display: block;
         background-color: #fff;
-        box-shadow: 2px 2px 20px rgb(193, 220, 224); 
         width: 100vw;
         height: 8vh;
         position: absolute;
-        top:10vw;
+        top:9vw;
         display:flex;
         justify-content: space-around;
         align-items: center;
@@ -457,7 +460,7 @@
     .menu__link--width{  
         text-decoration: none;
         color: rgb(57,144,156);   
-        font-size: 2.4vw;
+        font-size: 1.4rem;
         line-height: 0.9vw;
     }    
 }
@@ -469,16 +472,13 @@
         align-items: center;
     } 
     .title{
-        font-size: 4vw;
-    }
-    #header{
-        height: 7vw;
+        font-size: 2rem;
     }
     .menu__button__contact{
         height: 5vw; 
         padding: 2vw;   
         margin:0px 5vw 0px 5vw;
-        font-size: 1.6vw;
+        font-size: 1rem;
     }
     .icone__contact{
         position: fixed;
@@ -492,7 +492,7 @@
     }
     .banner__title{
         margin-top: 3vw;
-        font-size: 3.4vw;
+        font-size: 2rem;
     }
     .banner__images{
         width:80vw;
@@ -504,7 +504,6 @@
     .description{
         height: 130vw;
         margin-top: 8vw;
-        border-radius: 30vw;
     } 
     .description__video{
         width:80vw;
@@ -514,7 +513,7 @@
     .description__text{
         width: 80vw;
         margin-top: 0vw;
-        font-size: 2.2vw;
+        font-size:1.6rem;
     }
     .education{
         margin: 8vw 0px 8vw 0px;
@@ -524,41 +523,41 @@
         height:35vw;
     }
     .education__title{
-        font-size: 2.4vw;
+        font-size: 2rem;
     }   
     .education__bannerImg{
         width: 30vw;
         height:35vw;
     }
     .education__text{
-        font-size: 2.2vw;
+        font-size:1.2rem;
         margin: 0vw 3vw 0vw 3vw;
     }
     .interval__img{
         width: 60vw;
     }
     .interval__text{
-        font-size: 3vw;
+        font-size: 2rem;
     }
     .teachers{
         margin-top: 8vw;
     }
     .teachers__description{
         width:80vw;
-        height: 40vw;
+        height: 45vw;
         flex-flow: column wrap;
         justify-self: center;
     }
     .teachers__img{
         width: 25vw; 
-        height: 33vw;
+        height: 35vw;
     }
     .teachers__title{
-        font-size: 2.6vw;
+        font-size: 2rem;
         font-weight:bold;
     }
     .teachers__text{
-        font-size: 2vw;
+        font-size:1.2rem;
         width: 45vw;
         font-weight: normal;
     }
@@ -570,7 +569,7 @@
         min-width: 18vw;
         height: 6vh;
         margin: 1vw;
-        font-size: 2.4vw;
+        font-size: 1.2rem;
     }
     .modalities__img{
         width:80vw;
@@ -581,13 +580,13 @@
         height:70vw;
     }
     .modalities__title{
-        font-size: 2.8vw;
+        font-size: 2rem;
     }
     .modalities__age{
-        font-size: 2vw;
+        font-size: 1.2rem;
     }
     .modalities__explanation{
-        font-size: 2vw;
+        font-size: 1.2rem;
     }
 
     .student_voice{
@@ -597,27 +596,27 @@
         margin-top: 1vw;
         border-radius: 1vw;  
         width: 80vw;
+        height: 20vh;
     }
     .comments__text{
-        font-size: 2vw;
+        font-size: 1.2rem;
         width: 75vw;
     }
     .comments__name{
-        font-size:2vw;
+        font-size:1.2rem;
         bottom:1vw;
         right: 8vw;
     }
     .contact{
-        height: 110vw;
+        height: 165vw;
+        flex-flow: column nowrap;
+        align-items: center;
     }
 
     .contact__whatsapp{
-        width: 4vw;
-        height:4vw;
-    }
-    .contact__telephone{
-        height: 4vw;
-    }
+        width: 3vw;
+        height: 3vw;
+    }   
     .contat__flexrow{
         display: flex;
         align-items: center;
@@ -627,12 +626,12 @@
         width:4vw;
     }
     .contact__phone{
-        font-size: 2.4vw;
+        font-size: 1.2rem;
         margin-right: 2vw;
     }
     .contact__number{
-        margin-left: 2vw;   
-        font-size: 2.6vw;
+        margin-left: 2rem;   
+        font-size:1.2rem;
     }
     .instagram__img{
         margin-top: 2vw;
@@ -642,7 +641,7 @@
         height:45vw;
     }
     .contact__instagram__link{
-        font-size: 2.4vw;
+        font-size: 1.2rem;
         margin-top: 1vw;
     }
     .contact__map{
@@ -651,10 +650,13 @@
         width: 42vw;
         height:40vw;
     }
+    .contact__address{
+        padding-bottom: 15vh;
+    }
     .contact__return{
         width:10vw;
         position: absolute;
-        bottom: 4vw;
+        bottom: 8vw;
         left:23vw;
     }
 }

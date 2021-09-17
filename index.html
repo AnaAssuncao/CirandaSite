@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Ciranda</title>
+    <link rel="icon" href="Imagens/LogoIcon.png">
     <link rel="stylesheet" href="CSS/StyleCiranda.css">
     <!-- <link rel="stylesheet" href="CSS/StyleCirandaCellphone.css"> -->
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
@@ -17,22 +18,22 @@
             <nav class="header__menu flex__spacearound">
                 <ul class="menu flex__spacearound">
                     <li class="menu__items flex__spacearound" >
-                        <a class="menu__link" href=#SOBRE>SOBRE</a>
+                        <a class="menu__link" href=#SOBRE onclick="handleScroll()">SOBRE</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a class="menu__link" href=#ENSINO>ENSINO</a>
+                        <a class="menu__link" href=#ENSINO onclick="handleScroll()">ENSINO</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a class="menu__link" href=#PROFESSORES>PROFESSORES</a>
+                        <a class="menu__link" href=#PROFESSORES onclick="handleScroll()">PROFESSORES</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a class="menu__link" href=#MODALIDADES>MODALIDADES</a>
+                        <a class="menu__link" href=#MODALIDADES onclick="handleScroll()">MODALIDADES</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a  class="menu__link" href=#VOZDOSALUNOS>VOZ DOS ALUNOS</a>
+                        <a  class="menu__link" href=#VOZDOSALUNOS onclick="handleScroll()">VOZ DOS ALUNOS</a>
                     </li >
                     <li class="flex__spacearound" >
-                        <a class="menu__link menu__button__contact" href=#CONTATOS>CONTATOS</a>
+                        <a class="menu__link menu__button__contact" href=#CONTATOS onclick="handleScroll()">CONTATOS</a>
                     </li>
                  </ul>
             </nav>
@@ -42,7 +43,7 @@
         <a class="icone__contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">
             <img class="icone__img" src="Imagens/whatsapp.png" alt="Icone whatsapp">
        </a>
-       <a class="icone__contact__link" target="_blank"href="https://www.instagram.com/cirandaestudiodedanca/">
+       <a class="icone__contact__link" target="_blank" href="https://www.instagram.com/cirandaestudiodedanca/">
         <img class="icone__img" src="Imagens/instagram.png" alt="Icone instagram">
          </a>
        <a class="icone__contact__link" target="_blank" href="https://www.youtube.com/channel/UCLqDas3Nx6cUIOEqPyYSWgQ">
@@ -74,7 +75,7 @@
             </p>
             <!-- <img class="description__img"src="Imagens/sobre1.png" alt="Imagem dançarinas"> -->
             <!-- <iframe class="description__video" src="https://drive.google.com/file/d/1seddTNVGuiVMuoN8Vq3yHDAJ3BaLse5V/preview"></iframe> -->
-            <iframe class="description__video" src="https://www.youtube.com/embed/yWSW8v9O-uI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="description__video" src="https://www.youtube.com/embed/vlUVjwAB0CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
     <section class="education flex__column" id="ENSINO">
@@ -158,15 +159,6 @@
                     </p>
                 </div>
             </div>
-            <div class="teachers__description ">
-                <img class="teachers__img" src="Imagens/prof1.jpg" alt="Imagem dançarina">
-                <div class="flex__column">
-                    <h3 class="teachers__title">Mateus Augusto</h3>
-                    <p class="teachers__text">
-                        É professor e coreógrafo de Danças Urbanas há treze anos, fez diversas cursos com professores de renome nacionais e internacionais. Participou de concurso e competições pelo Brasil, ganhou premiações com seu atual grupo de dança “Goerê" como melhor grupo e melhor dançarino. Possui ampla experiência na área de ensino da dança com público diverso.
-                    </p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -192,9 +184,11 @@
             </div>
             <div class="comments__box"> 
                 <img class="comments__img__init" src="Imagens/InicioAspas.png">
-                <p class="comments__text">Como mãe de uma aluna, digo que o ballet tem contribuido para sua saúde, postura, disciplina, criatividade, coordenação. E a professora Mariana proporciona aulas divertidas e encantadoras tornando o aprendizado leve e eficaz.
+                <p class="comments__text">Minha filha aprendeu a amar e respeitar a dança com a tia Mari. ❤️🥰 ela faz ballet desde um aninho.
+                    
+                    Recomendo de olhos fechados.
                       </p>
-                <p class="comments__name"> FATIMA RIBEIRO </p> 
+                <p class="comments__name"> ANGELINA CANESCO </p> 
                 <img class="comments__img__end" src="Imagens/FinalAspas.png">   
             </div>  
             <div class="comments__box"> 
@@ -216,19 +210,19 @@
             <div class="contat__flexrow">
                 <p class="contact__phone"> Professora Bárbara</p>
                 <div class="flex__spacearound ">
-                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">     
+                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">     
                         <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                     </a>
-                    <a class="contact__phone contact__number" href="tel:031999396954">(31) 99939-6954</a>
+                    <a class="contact__phone contact__number" target="_blank" href="https://api.whatsapp.com/send?phone=5531999396954&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">(31) 99939-6954</a>
                 </div>
             </div>
             <div class="contat__flexrow">
                 <p class="contact__phone"> Professora Mariana</p>
                 <div class="flex__spacearound "> 
-                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda">
+                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">
                         <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
                     </a>
-                    <a class="contact__phone contact__number" href="tel:031975023320">(31) 97502-3320 </a>
+                    <a class="contact__phone contact__number" target="_blank" href="https://api.whatsapp.com/send?phone=5531975023320&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">(31) 97502-3320 </a>
                 </div>
              </div>             
         </div>
@@ -236,11 +230,9 @@
          <div class="contact__instagram">
             <img class="contact__icone" src="Imagens/instagram-contact.png">
             <hr  class="contact__line"/>
-            <a class="contact__instagram__link" href="https://www.instagram.com/cirandaestudiodedanca/">@cirandaestudiodedanca</a>
+            <a class="contact__instagram__link" target="_blank" href="https://www.instagram.com/cirandaestudiodedanca/">@cirandaestudiodedanca</a>
             <div class="instagram__img">
-            <!-- <iframe src="//lightwidget.com/widgets/90e0db6b65fe55ceb7f8e7bc108ca6ff.html" scrolling="no" allowtransparency="true" class="lightwidget-widget instagram__iframe"></iframe>     -->
-        <!-- SnapWidget -->
-            <iframe src="https://snapwidget.com/embed/903574" class="snapwidget-widget instagram__iframe" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+                <iframe src="//lightwidget.com/widgets/81f91ccd607a56bfa9bf87a18663e8a2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget instagram__iframe"></iframe>
         </div>
         </div>
         <div class="contact__address">
