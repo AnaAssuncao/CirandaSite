@@ -424,8 +424,8 @@
     display: none;
 }
 
-
-  @media(max-width: 1000px){
+@media(max-width: 1000px)
+{
     .menu__items{
         display:none;
     }
@@ -463,9 +463,6 @@
         font-size: 1.4rem;
         line-height: 0.9vw;
     }    
-}
-@media(max-width: 1000px)
-{
     .element--width{
         display: flex;
         flex-flow: column wrap;

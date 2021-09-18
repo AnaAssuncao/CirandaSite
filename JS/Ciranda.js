@@ -12,10 +12,13 @@ item.addEventListener("click", () =>{
     selectItemListMenu(item)
 }))
 
+const widht = window.innerWidth 
+
 const handleScroll=()=>{
+    const scroll = widht>1000?100:250
     setTimeout(()=>{
-        const scroll = window.scrollY - 100
-        window.scroll(0, scroll )
+        const heightScroll = window.scrollY - scroll
+        window.scroll(0, heightScroll )
     },10)
 }
 
@@ -42,30 +45,31 @@ document.querySelector("#header__list").addEventListener("click", () =>{
 function openMenu(menu){
     const header = document.querySelector("#header");
     if(menu.isClickedButtom===false){
-    const menuHeader = document.createElement('div');
-    menuHeader.classList.add("header__menu--width")
-    const list = document.createElement('ul');
-    list.classList.add("menu");
-    list.classList.add("flex__spacearound");
+        const menuHeader = document.createElement('div');
+        menuHeader.classList.add("header__menu--width")
+        const list = document.createElement('ul');
+        list.classList.add("menu");
+        list.classList.add("flex__spacearound");
 
-    for(let item in menu.items){
-        const itemList = document.createElement('li');
-        itemList.classList.add("menu__items--width");
-        itemList.classList.add("flex__spacearound");
-        itemList.addEventListener("click", () =>{
-            selectItemListMenu(itemList);
-        });
-        const linkList = document.createElement('a');
-        linkList.classList.add("menu__link--width");
-        linkList.innerHTML=menu.items[item];
-        linkList.href=`#${menu.itemsID[item]}`;
+        for(let item in menu.items){
+            const itemList = document.createElement('li');
+            itemList.classList.add("menu__items--width");
+            itemList.classList.add("flex__spacearound");
+            itemList.addEventListener("click", () =>{
+                selectItemListMenu(itemList)
+                handleScroll()
+            });
+            const linkList = document.createElement('a');
+            linkList.classList.add("menu__link--width");
+            linkList.innerHTML=menu.items[item];
+            linkList.href=`#${menu.itemsID[item]}`;
 
-        itemList.appendChild(linkList);
-        list.appendChild(itemList);
-    }
-    menuHeader.appendChild(list);
-    header.appendChild(menuHeader)
-        menu.isClickedButtom=true;
+            itemList.appendChild(linkList);
+            list.appendChild(itemList);
+        }
+        menuHeader.appendChild(list);
+        header.appendChild(menuHeader)
+            menu.isClickedButtom=true;
     }
     else{    
         const menuDisplayed = document.querySelector(".header__menu--width");
