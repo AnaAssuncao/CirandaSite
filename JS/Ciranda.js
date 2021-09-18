@@ -92,7 +92,8 @@ const modalities = {
 "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Sua criança irá se divertir e se desenvolver corporalmente.",
 "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
 "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
-"O Fit Dance consiste em uma dança unida a exercícios, que estimula o corpo inteiro. Por meio de aulas em que os alunos seguem os passos de dançarinos e executam determinados movimentos, o corpo é estimulado a se movimentar continuamente.É possível encontrar aulas de Fit Dance na internet, porém é mais recomendável que as aulas sejam feitas em uma academia, na presença de um instrutor, pelo caráter socializador da atividade."],
+"O Fitdance consiste em uma dança que exercita o corpo de modo a estimular o desenvolvimento da melhora da coordenação motora, da respiração, do condicionamento físico. Além de possibilitar a diversão, o autoconhecimento e melhor autoestima para o aluno!"
+],
     colorClass:["modalities__description--purple","modalities__description--green","modalities__description--pink","modalities__description--purple",
     "modalities__description--green","modalities__description--green","modalities__description--green","modalities__description--pink"],
     elementSelect:null,
