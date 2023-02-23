@@ -283,17 +283,18 @@
   box-shadow: 2px 2px 20px rgb(193, 220, 224);
 }
 #modalities__group {
-  position: relative;
+  /* position: relative; */
 }
 .modalities__information {
   position: relative;
+  display: flex;
 }
 .modalities__img {
   width: 60vw;
   height: 40vw;
 }
 .modalities__description {
-  position: absolute;
+  /* position: absolute; */
   top: 0px;
   right: 0px;
   width: 25vw;
