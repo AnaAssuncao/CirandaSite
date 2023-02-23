@@ -1,6 +1,6 @@
 const menu = {
-  items: ["SOBRE", "ENSINO", "PROFESSORES", "MODALIDADES", "VOZ DOS ALUNOS"],
-  itemsID: ["SOBRE", "ENSINO", "PROFESSORES", "MODALIDADES", "VOZDOSALUNOS"],
+  items: ["SOBRE", "ENSINO", "DIRETORAS", "MODALIDADES", "DEPOIMENTOS"],
+  itemsID: ["SOBRE", "ENSINO", "DIRETORAS", "MODALIDADES", "DEPOIMENTOS"],
   itemSelect: null,
   isClickedButtom: false,
   screenSize: 1000,
