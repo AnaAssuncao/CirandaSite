@@ -1,8 +1,9 @@
+@import url(base.css);
 /* section contact */
 .contact {
   margin-top: 4vw;
   padding: 1vw;
-  background-color: #378e9c;
+  background-color: var(--background-dark);
   align-items: flex-start;
   flex-wrap: wrap;
   height: 70vh;
@@ -12,11 +13,11 @@
   width: 2vw;
 }
 .contact__line {
-  border: solid 1px #06152b;
+  border: solid 1px var(--text-dark);
   margin-bottom: 0.6vw;
 }
 .contact__phone {
-  color: #06152b;
+  color: var(--text-dark);
 }
 .contact__whatsapp {
   width: 2vw;
@@ -30,7 +31,7 @@
 .contact__instagram__link {
   text-decoration: none;
   list-style: none;
-  color: #06152b;
+  color: var(--text-dark);
 }
 .instagram__img {
   margin-top: 0.5vw;
@@ -42,16 +43,16 @@
 .contact__address {
   align-items: center;
   padding: 0px;
-  color: #06152b;
+  color: var(--text-dark);
 }
 .contact__map {
-  border: solid 5px #fff;
+  border: solid 5px var(--white);
   margin-top: 1vw;
   width: 35vw;
   height: 42vh;
 }
 .contact__return {
-  width: 5vw;
+  width: 3vw;
   position: absolute;
   bottom: 2vw;
   left: 4vw;
@@ -96,7 +97,7 @@
     margin-top: 1vw;
   }
   .contact__map {
-    border: solid 5px #fff;
+    border: solid 5px var(--white);
     margin-top: 1vw;
     width: 42vw;
     height: 40vw;

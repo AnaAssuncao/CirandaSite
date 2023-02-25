@@ -1,3 +1,4 @@
+@import url(base.css);
 /* menu */
 .menu__items {
   min-width: 4.7vw;
@@ -8,39 +9,42 @@
 }
 .menu__link {
   text-decoration: none;
-  color: rgb(57, 144, 156);
+  color: var(--text);
   font-size: 1rem;
 }
 .menu__select {
-  background-color: rgb(200, 250, 250);
+  background-color: var(--background-light);
+  box-shadow: 2px 2px 3px var(--shadow);
+  border-radius: 16px;
   min-width: 4.7vw;
-  height: 3vw;
+  padding: 16px;
   text-align: center;
 }
 .menu__items--width:hover,
 .menu__items:hover {
-  background-color: rgb(200, 250, 250);
+  background-color: var(--background-light);
+  box-shadow: 2px 2px 3px var(--shadow);
+  border-radius: 16px;
 }
 .menu__button__contact {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  height: 3.4vw;
   margin: 0px 3vw 0px 5vw;
-  padding: 1vw;
-  background-color: rgb(57, 144, 156);
-  border-radius: 0.3vw;
-  box-shadow: 2px 2px 3px rgb(151, 235, 247);
-  color: #ffffff;
+  padding: 16px;
+  background-color: var(--blue);
+  border-radius: 16px;
+  box-shadow: 2px 2px 3px var(--shadow);
+  color: var(--white);
   font-size: 1rem;
 }
 .icone__contact {
   position: fixed;
   right: 3px;
   top: 20vw;
-  background-color: #e5f0ff;
-  border: solid 1px #39909c;
+  background-color: var(--background-light);
+  border: solid 1px var(--blue);
   border-radius: 10px;
   padding: 0.6vw;
   z-index: 2;
@@ -64,7 +68,7 @@
   }
   .menu__link--width {
     text-decoration: none;
-    color: rgb(57, 144, 156);
+    color: var(--text);
     font-size: 1.4rem;
     line-height: 0.9vw;
   }

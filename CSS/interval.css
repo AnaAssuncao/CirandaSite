@@ -1,3 +1,4 @@
+@import url(base.css);
 /* section interval */
 .interval {
   padding: 7vw;
@@ -7,11 +8,12 @@
 }
 .interval__text {
   padding: 2px 6vw 2px 6vw;
-  background: #378e9c;
+  background: var(--background-dark);
   border-radius: 42px;
-  color: #e5f0ff;
+  color: var(--text-light);
   font-size: 1.6rem;
   margin-top: 24px;
+  text-decoration: none;
 }
 
 .header__menu--width {

@@ -1,6 +1,22 @@
 :root {
   --white: #fff;
   --black: #000;
+  --title-dark: #0a6469;
+  --title: #11a0a8;
+  --title-light: #18eaf5;
+  --text-dark: #053032;
+  --text: #0e888f;
+  --text-light: #e6ffff;
+  --background-dark: #11a0a8;
+  --background: #6be1e3;
+  --background-light: #e6ffff;
+  --blue-dark: #053032;
+  --blue: #0e888f;
+  --blue-light: #6be1e3;
+  --shadow: #c1f8fb;
+  --purple: #7922a850;
+  --pink: #a8227850;
+  --green: #09b55d50;
 }
 
 * {
@@ -31,8 +47,8 @@
 }
 .title {
   font-size: 2.4rem;
-  color: #303c4c;
-  border-bottom: 1px solid #378e9c;
+  color: var(--title-dark);
+  border-bottom: 1px solid var(--blue);
   align-self: center;
   margin-bottom: 3vw;
   text-align: center;

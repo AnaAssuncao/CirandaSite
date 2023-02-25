@@ -1,21 +1,22 @@
+@import url(base.css);
 /* section description */
 .description {
   margin-bottom: 5vw;
   height: 40vw;
   background: linear-gradient(
     270deg,
-    #378e9c 3.18%,
-    #7ad4d1 51.42%,
-    #378e9c 103.84%
+    var(--background-dark) 3.18%,
+    var(--background) 51.42%,
+    var(--background-dark) 103.84%
   );
-  box-shadow: 2px 0px 2px 3px rgb(200, 243, 250);
+  box-shadow: 2px 0px 2px 3px var(--shadow);
 }
 .description__banner {
   width: 80vw;
 }
 .description__text {
   font-size: 1rem;
-  color: #06152b;
+  color: var(--text-dark);
   margin-right: 2vw;
   width: 40vw;
 }

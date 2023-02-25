@@ -1,3 +1,4 @@
+@import url(base.css);
 /* section education*/
 .education {
   position: relative;
@@ -7,9 +8,9 @@
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  box-shadow: 2px 2px 20px rgb(193, 220, 224);
+  box-shadow: 2px 2px 20px var(--shadow);
   padding: 1vw;
-  background: rgb(244, 249, 253);
+  background: var(--background-light);
 }
 .education__bannerText {
   flex-grow: 2;
@@ -21,7 +22,7 @@
   text-align: center;
 }
 .education__title {
-  color: #06152b;
+  color: var(--text-dark);
   font-size: 2rem;
 }
 .education__bannerImg {
@@ -34,7 +35,7 @@
   border-radius: 40%;
 }
 .education__text {
-  color: #06152b;
+  color: var(--text-dark);
   font-size: 1rem;
   margin: 0vw 5vw 0vw 5vw;
 }

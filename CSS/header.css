@@ -1,7 +1,7 @@
+@import url(base.css);
 /* section header */
 #header {
-  /* border-bottom: solid 1px rgb(173, 230, 238); */
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   top: 0px;
   width: 100vw;
   height: 5vw;
-  box-shadow: 2px 2px 20px rgb(193, 220, 224);
+  box-shadow: 2px 2px 20px var(--shadow);
   z-index: 2;
 }
 .header__img {
@@ -29,14 +29,14 @@
   }
   .header__list__menu {
     display: block;
-    background-color: rgb(255, 255, 255);
-    border: rgb(255, 255, 255);
+    background-color: var(--background-ligh);
+    border: var(--background-ligh);
     border-radius: 60px;
     margin-left: 5vw;
   }
   .header__menu--width {
     display: block;
-    background-color: #fff;
+    background-color: var(--white);
     width: 100vw;
     height: 8vh;
     position: absolute;
