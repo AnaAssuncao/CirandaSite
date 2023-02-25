@@ -65,6 +65,7 @@ function openMenu(menu) {
     const list = document.createElement("ul");
     list.classList.add("menu");
     list.classList.add("flex__spacearound");
+    list.classList.add("menu--width");
 
     for (let item in menu.items) {
       const itemList = document.createElement("li");
