@@ -105,7 +105,7 @@ const modalities = {
     "Jazz Infantil",
     "Jazz Juvenil",
     "Jazz Adulto",
-    "Alongamento para Melhor Idade",
+    "Dança para Melhor Idade",
   ],
   age: [
     "Entre 3 e 5 anos",
@@ -114,7 +114,7 @@ const modalities = {
     "Entre 6 e 10 anos",
     "Entre 11 e 14 anos",
     "A partir de 14 anos",
-    "A partir de 14 anos",
+    "Melhor idade",
   ],
   explanation: [
     "Para as crianças que sonham em ser balarinas, o Baby Ballet é uma iniciação a dança clássica.<br><br>Nesta modalidade elas descobrem a dança de uma maneira lúdica e afetiva. As aulas são divertidas e encantadoras tornando o aprendizado leve e eficaz.",
@@ -123,7 +123,7 @@ const modalities = {
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Sua criança irá se divertir e se desenvolver corporalmente.",
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
     "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
-    "não sei",
+    "Tem o intuito de melhorar a qualidade de vida de quem pratica esta dança. O foco está no alongamento e fortalecimento do corpo através de pequenas sequências coreografadas. Uma experiência que pode trazer inúmeros benefícios que influenciam no bem-estar físico e mental, trabalhando memória, postura, consciência corporal e coordenação motora.",
   ],
   colorClass: [
     "modalities__description--purple",
