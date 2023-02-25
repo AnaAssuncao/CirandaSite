@@ -1,6 +1,20 @@
 const menu = {
-  items: ["SOBRE", "ENSINO", "DIRETORAS", "MODALIDADES", "DEPOIMENTOS"],
-  itemsID: ["SOBRE", "ENSINO", "DIRETORAS", "MODALIDADES", "DEPOIMENTOS"],
+  items: [
+    "SOBRE",
+    "ENSINO",
+    "DIRETORAS",
+    "MODALIDADES",
+    "DEPOIMENTOS",
+    "PERGUNTAS FREQUENTES",
+  ],
+  itemsID: [
+    "SOBRE",
+    "ENSINO",
+    "DIRETORAS",
+    "MODALIDADES",
+    "DEPOIMENTOS",
+    "PERGUNTAS",
+  ],
   itemSelect: null,
   isClickedButtom: false,
   screenSize: 1000,

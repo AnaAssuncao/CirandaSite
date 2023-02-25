@@ -16,10 +16,6 @@
   text-decoration: none;
 }
 
-.header__menu--width {
-  display: none;
-}
-
 @media (max-width: 1000px) {
   .interval__img {
     width: 60vw;

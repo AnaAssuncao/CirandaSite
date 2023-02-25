@@ -10,7 +10,7 @@
 .menu__link {
   text-decoration: none;
   color: var(--text);
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .menu__select {
   background-color: var(--background-light);
@@ -61,6 +61,7 @@
   }
 
   .menu__items--width {
+    font-size: 0.8rem;
     min-width: 6vw;
     height: 4vw;
     text-align: center;

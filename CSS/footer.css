@@ -2,7 +2,7 @@
 /* section contact */
 .contact {
   margin-top: 4vw;
-  padding: 1vw;
+  padding: 1vw 2vw;
   background-color: var(--background-dark);
   align-items: flex-start;
   flex-wrap: wrap;
