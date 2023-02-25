@@ -44,6 +44,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 24px;
+  background-color: var(--background);
 }
 .modalities__title {
   color: var(--text-dark);
@@ -60,18 +61,6 @@
   color: var(--text-dark);
   margin-top: 3vw;
   font-size: 1rem;
-}
-.modalities__description--purple {
-  background: var(--purple);
-}
-.modalities__description--blue {
-  background: var(--blue);
-}
-.modalities__description--pink {
-  background: var(--pink);
-}
-.modalities__description--green {
-  background: var(--green);
 }
 
 @media (max-width: 1000px) {

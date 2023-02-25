@@ -45,15 +45,6 @@ const modalities = {
     "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
     "A dança para Melhor Idade tem o intuito de melhorar a qualidade de vida de quem pratica esta atividade. O foco da aula está no alongamento e fortalecimento do corpo através de pequenas sequências coreografadas. Uma experiência que pode trazer inúmeros benefícios que influenciam no bem-estar físico e mental dos alunos, trabalhando memória, postura, consciência corporal e coordenação motora.",
   ],
-  colorClass: [
-    "modalities__description--purple",
-    "modalities__description--green",
-    "modalities__description--pink",
-    "modalities__description--purple",
-    "modalities__description--green",
-    "modalities__description--purple",
-    "modalities__description--pink",
-  ],
   elementSelect: null,
   structureDescription: ["title", "age", "explanation"],
   elementCreateDescription: ["h1", "p", "p"],
@@ -123,7 +114,6 @@ function illustrateModalityInformation(
   const modDescription = document.createElement("div");
   modDescription.classList.add("flex__column");
   modDescription.classList.add("modalities__description");
-  modDescription.classList.add(`${modalities.colorClass[numberIndex]}`);
   modGroupInformation.appendChild(modDescription);
 
   modalities.elementCreateDescription.forEach((element, index) => {
