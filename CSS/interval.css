@@ -1,0 +1,28 @@
+/* section interval */
+.interval {
+  padding: 7vw;
+}
+.interval__img {
+  width: 45vw;
+}
+.interval__text {
+  padding: 2px 6vw 2px 6vw;
+  background: #378e9c;
+  border-radius: 42px;
+  color: #e5f0ff;
+  font-size: 1.6rem;
+  margin-top: 24px;
+}
+
+.header__menu--width {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .interval__img {
+    width: 60vw;
+  }
+  .interval__text {
+    font-size: 2rem;
+  }
+}

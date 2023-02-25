@@ -1,0 +1,56 @@
+:root {
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cinzel", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (min-width: 900px) {
+  .default__config {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .default__config {
+    font-size: 20px;
+  }
+}
+
+.flex__spacearound {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  font-size: 2.4rem;
+  color: #303c4c;
+  border-bottom: 1px solid #378e9c;
+  align-self: center;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+.flex__column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 2rem;
+  }
+  .element--width {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}

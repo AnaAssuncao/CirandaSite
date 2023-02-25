@@ -1,0 +1,66 @@
+/* section comments*/
+#DEPOIMENTOS {
+  margin-top: 4vw;
+}
+.comments {
+  width: 80vw;
+}
+.comments__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: solid 3px #378e9c;
+  width: 25vw;
+  height: 30vw;
+  margin-top: 1vw;
+  position: relative;
+  border-radius: 2vw;
+}
+.comments__img__init {
+  width: 2vw;
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+}
+.comments__img__end {
+  width: 2vw;
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw;
+}
+.comments__text {
+  font-size: 0.9rem;
+  color: #06152b;
+  text-align: center;
+  width: 20vw;
+}
+.comments__name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #06152b;
+  position: absolute;
+  bottom: 2vw;
+}
+
+@media (max-width: 1000px) {
+  .student_voice {
+    margin: 8vw 0px 8vw 0px;
+  }
+  .comments__box {
+    margin-top: 1vw;
+    border-radius: 1vw;
+    width: 80vw;
+    height: 20vh;
+  }
+  .comments__text {
+    font-size: 1.2rem;
+    width: 75vw;
+  }
+  .comments__name {
+    font-size: 1.2rem;
+    bottom: 1vw;
+    right: 8vw;
+  }
+}
