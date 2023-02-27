@@ -11,6 +11,7 @@
 </head>
 <body>
     <header id="header">
+        <div class='header__content container'>
             <img class="header__img" src="Imagens/LogoCiranda.png" alt="Logo">
             <button class="header__list__menu" id="header__list">
                 <img class="header__list__img" src="Imagens/menu.png" alt="Icone menu">
@@ -40,6 +41,7 @@
                     </li>                
                  </ul>
             </nav>
+        </div>
      </header>
 
      <section class="icone__contact flex__column"> 
@@ -56,7 +58,7 @@
      </section>
 
     <main class="banner element--width" id="banner">
-        <h1 class="banner__title">A DANÇA É PRA TODES! VEM SER CIRANDA!</h1>
+        <h1 class="banner__title container">A DANÇA É PRA TODES! VEM SER CIRANDA!</h1>
         <div class="banner__images">
             <img class="banner__img" src="Imagens/destaque1.jpg" alt="Imagem dançarinas">
         </div>
@@ -79,7 +81,7 @@
         </div>
     </section>
 
-    <section class="education flex__column" id="ENSINO">
+    <section class="education flex__column container" id="ENSINO">
         <h1 class="title"> ENSINO</h1>
             <div class="education__banner">
                 <div class="education__bannerText">   
@@ -131,7 +133,7 @@
             </div>  
     </section>
 
-    <section class="teachers flex__column" id="DIRETORAS">
+    <section class="teachers flex__column container" id="DIRETORAS">
         <h1 class="title">DIRETORAS</h1>
         <div class="teachers__informative flex__spacearound element--width">
             <div class="teachers__description">
@@ -155,7 +157,7 @@
         </div>
     </section>
 
-    <section class="modalities flex__column" id="MODALIDADES">
+    <section class="modalities flex__column container" id="MODALIDADES">
         <h1 class="title">MODALIDADES</h1> 
         <div class="modalities">
             <div id="modalities__list" >
@@ -165,7 +167,7 @@
         </div>
     </section>
 
-    <section class="flex__column student_voice" id="DEPOIMENTOS">
+    <section class="flex__column student_voice container" id="DEPOIMENTOS">
         <h1 class="title">DEPOIMENTOS</h1>
         <div class="comments flex__spacearound element--width">
             <div class="comments__box">
@@ -195,7 +197,7 @@
         </div>
     </section>
 
-    <section class="questions flex__column" id="PERGUNTAS">
+    <section class="questions flex__column container" id="PERGUNTAS">
         <h1 class="title">PERGUNTAS FREQUENTES</h1>
         <div class="section-accordion">
             <div class="accordion-title">
@@ -270,40 +272,41 @@
 
     </section>
 
-    <footer class="flex__spacearound contact" id="CONTATOS">
-        <div class="contact__telephone">
-            <img class="contact__icone" src="Imagens/contato-telefonico.png">
-            <hr class="contact__line"/>
-            <p class="contact__phone">Telefone:</p>
-            <div class="contat__flexrow">
-                <div class="flex__spacearound ">
-                    <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531992708177&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">     
-                        <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
-                    </a>
-                    <a class="contact__phone contact__number" target="_blank" href="https://api.whatsapp.com/send?phone=5531992708177&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">(31) 99270-8177</a>
+    <footer class="contact" id="CONTATOS">
+        <div class="flex__spacearound contact__content container"> 
+            <div class="contact__telephone">
+                <img class="contact__icone" src="Imagens/contato-telefonico.png">
+                <hr class="contact__line"/>
+                <p class="contact__phone">Telefone:</p>
+                <div class="contat__flexrow">
+                    <div class="flex__spacearound ">
+                        <a class="contact__link" target="_blank" href="https://api.whatsapp.com/send?phone=5531992708177&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">     
+                            <img class="contact__whatsapp" src="Imagens/whatsapp.png" alt="Icone whatsapp">
+                        </a>
+                        <a class="contact__phone contact__number" target="_blank" href="https://api.whatsapp.com/send?phone=5531992708177&text=Olá,%20Gostaria%20de%20mais%20informações%20sobre%20as%20aulas%20do%20Estúdio%20Ciranda.">(31) 99270-8177</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-         <div class="contact__instagram">
-            <img class="contact__icone" src="Imagens/instagram-contact.png">
-            <hr  class="contact__line"/>
-            <a class="contact__instagram__link" target="_blank" href="https://www.instagram.com/cirandaestudiodedanca/">@cirandaestudiodedanca</a>
-            <div class="instagram__img">
-                <iframe src="//lightwidget.com/widgets/81f91ccd607a56bfa9bf87a18663e8a2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget instagram__iframe"></iframe>
+            <div class="contact__instagram">
+                <img class="contact__icone" src="Imagens/instagram-contact.png">
+                <hr  class="contact__line"/>
+                <a class="contact__instagram__link" target="_blank" href="https://www.instagram.com/cirandaestudiodedanca/">@cirandaestudiodedanca</a>
+                <div class="instagram__img">
+                    <iframe src="//lightwidget.com/widgets/81f91ccd607a56bfa9bf87a18663e8a2.html" scrolling="no" allowtransparency="true" class="lightwidget-widget instagram__iframe"></iframe>
+            </div>
+            </div>
+            <div class="contact__address">
+                <img class="contact__icone" src="Imagens/pino-de-localizacao.png">
+                <hr class="contact__line"/>
+                <p class="contact__phone"> Localizado no 4º andar da Academia Marte <br>
+                    Endereço: Av. Marte 645, <br>Jardim Riacho/ Contagem/MG</p>
+                <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.8558111667285!2d-44.063942783048724!3d-19.972565208132135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bf498e87e0d3%3A0x79d25b8dfdbbeed4!2sCIRANDA%20EST%C3%9ADIO%20DE%20DAN%C3%87A!5e0!3m2!1spt-BR!2sbr!4v1677531923960!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <a class="contact__return" href="#banner" onclick="selectItemListMenu()">
+                <img class="contact__return"  src="Imagens/return.png">
+            </a>
         </div>
-        </div>
-        <div class="contact__address">
-            <img class="contact__icone" src="Imagens/pino-de-localizacao.png">
-            <hr class="contact__line"/>
-            <p class="contact__phone"> Localizado no 4º andar da Academia Marte <br>
-                Endereço: Av. Marte 645, <br>Jardim Riacho/ Contagem/MG</p>
-            <iframe class="contact__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.8558111667285!2d-44.063942783048724!3d-19.972565208132135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bf498e87e0d3%3A0x79d25b8dfdbbeed4!2sCIRANDA%20EST%C3%9ADIO%20DE%20DAN%C3%87A!5e0!3m2!1spt-BR!2sbr!4v1677531923960!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <a class="contact__return" href="#banner" onclick="selectItemListMenu()">
-            <img class="contact__return"  src="Imagens/return.png">
-        </a>
-      
     </footer>
 </body>
 <script src="JS/Menu.js"></script>

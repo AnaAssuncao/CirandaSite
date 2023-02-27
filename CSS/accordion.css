@@ -11,8 +11,8 @@
   border: 1px solid #dde0e4;
   border-radius: 8px;
   padding: 16px;
-  width: 80vw;
   margin: 12px 0;
+  width: 100%;
 }
 
 .accordion-collapsed {
@@ -24,12 +24,12 @@
   font-weight: 700;
   color: var(--text);
   margin-right: 64px;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .accordion-body {
   margin-top: 8px;
-  font-size: 0.85rem;
+  font-size: 14px;
 }
 
 .accordion-none {
@@ -38,10 +38,10 @@
 
 @media (max-width: 1000px) {
   .accordion-title {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .accordion-body {
-    font-size: 1.2rem;
+    font-size: 20px;
   }
 }

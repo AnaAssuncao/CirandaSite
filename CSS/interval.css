@@ -10,7 +10,7 @@
   background: var(--background-dark);
   border-radius: 42px;
   color: var(--text-light);
-  font-size: 1.6rem;
+  font-size: 24px;
   margin-top: 24px;
   text-decoration: none;
 }
@@ -20,6 +20,6 @@
     width: 60vw;
   }
   .interval__text {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }

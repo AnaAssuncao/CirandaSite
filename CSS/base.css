@@ -46,7 +46,7 @@
   align-items: center;
 }
 .title {
-  font-size: 2.4rem;
+  font-size: 32px;
   color: var(--title-dark);
   border-bottom: 1px solid var(--blue);
   align-self: center;
@@ -62,11 +62,17 @@
 
 @media (max-width: 1000px) {
   .title {
-    font-size: 2rem;
+    font-size: 32px;
   }
   .element--width {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
   }
+}
+
+.container {
+  width: 90vw;
+  max-width: 1230px;
+  margin: 0 auto;
 }

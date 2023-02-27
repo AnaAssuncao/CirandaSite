@@ -11,10 +11,11 @@
   box-shadow: 2px 0px 2px 3px var(--shadow);
 }
 .description__banner {
-  width: 80vw;
+  width: 90vw;
+  max-width: 1230px;
 }
 .description__text {
-  font-size: 1rem;
+  font-size: 16px;
   color: var(--text-dark);
   margin-right: 2vw;
   width: 40vw;
@@ -29,13 +30,13 @@
     height: 120vw;
   }
   .description__video {
-    width: 80vw;
+    width: 90vw;
     height: 50vw;
     padding-top: 5vw;
   }
   .description__text {
-    width: 80vw;
+    width: 90vw;
     margin-top: 0vw;
-    font-size: 1.6rem;
+    font-size: 24px;
   }
 }

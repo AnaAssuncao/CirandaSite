@@ -3,16 +3,18 @@
   margin-top: 4vw;
 }
 .comments {
-  width: 80vw;
+  width: 100%;
 }
+
 .comments__box {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--white);
   border: solid 3px var(--blue);
-  width: 25vw;
-  height: 30vw;
+  width: 28vw;
+  max-width: 400px;
+  height: 32vw;
   margin-top: 1vw;
   position: relative;
   border-radius: 2vw;
@@ -30,14 +32,14 @@
   right: 1vw;
 }
 .comments__text {
-  font-size: 0.9rem;
+  font-size: 16px;
   color: var(--text-dark);
   text-align: center;
-  width: 20vw;
+  width: 90%;
 }
 .comments__name {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
   color: var(--text-dark);
   position: absolute;
@@ -46,20 +48,21 @@
 
 @media (max-width: 1000px) {
   .student_voice {
-    margin: 8vw 0px 8vw 0px;
+    margin: 8vw auto 8vw auto;
   }
   .comments__box {
     margin-top: 1vw;
     border-radius: 1vw;
-    width: 80vw;
+    width: 100%;
+    max-width: 100%;
     height: 20vh;
   }
   .comments__text {
-    font-size: 1.2rem;
+    font-size: 20px;
     width: 75vw;
   }
   .comments__name {
-    font-size: 1.2rem;
+    font-size: 20px;
     bottom: 1vw;
     right: 8vw;
   }

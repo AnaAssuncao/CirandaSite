@@ -3,7 +3,8 @@
   position: relative;
 }
 .education__banner {
-  width: 80vw;
+  width: 90vw;
+  max-width: 1230px;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
@@ -22,7 +23,7 @@
 }
 .education__title {
   color: var(--text-dark);
-  font-size: 2rem;
+  font-size: 32px;
 }
 .education__bannerImg {
   width: 30vw;
@@ -35,27 +36,27 @@
 }
 .education__text {
   color: var(--text-dark);
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0vw 5vw 0vw 5vw;
 }
 
 @media (max-width: 1000px) {
   .education {
-    margin: 8vw 0px 8vw 0px;
+    margin: 8vw auto 8vw auto;
   }
   .education__bannerText {
     width: 35vw;
     height: 35vw;
   }
   .education__title {
-    font-size: 2rem;
+    font-size: 32px;
   }
   .education__bannerImg {
     width: 30vw;
     height: 35vw;
   }
   .education__text {
-    font-size: 1.2rem;
+    font-size: 20px;
     margin: 0vw 3vw 0vw 3vw;
   }
 }

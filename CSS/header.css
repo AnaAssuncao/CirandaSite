@@ -2,18 +2,23 @@
 #header {
   background-color: var(--white);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   top: 0px;
   width: 100vw;
-  height: 5vw;
   box-shadow: 2px 2px 20px var(--shadow);
   z-index: 2;
 }
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+  width: 100%;
+}
 .header__img {
   height: 90%;
-  margin-left: 2vw;
 }
 .header__list__menu {
   display: none;
@@ -23,7 +28,7 @@
 }
 
 @media (max-width: 1000px) {
-  #header {
+  .header__content {
     height: 10vw;
   }
   .header__list__menu {
