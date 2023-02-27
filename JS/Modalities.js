@@ -116,16 +116,36 @@ function illustrateModalityInformation(
   modDescription.classList.add("modalities__description");
   modGroupInformation.appendChild(modDescription);
 
-  modalities.elementCreateDescription.forEach((element, index) => {
-    createModalityDescrition(
-      element,
-      modalities.addClass[index],
-      modalities.structureDescription[index],
-      numberIndex,
-      modDescription,
-      modalities
-    );
-  });
+  const content = document.createElement("div");
+  content.classList.add("modalities__content");
+  modDescription.appendChild(content);
+
+  createModalityDescrition(
+    "h1",
+    modalities.addClass[0],
+    modalities.structureDescription[0],
+    numberIndex,
+    content,
+    modalities
+  );
+
+  createModalityDescrition(
+    "p",
+    modalities.addClass[1],
+    modalities.structureDescription[1],
+    numberIndex,
+    content,
+    modalities
+  );
+
+  createModalityDescrition(
+    "p",
+    modalities.addClass[2],
+    modalities.structureDescription[2],
+    numberIndex,
+    modDescription,
+    modalities
+  );
 }
 function createModalityDescrition(
   creatElement,
