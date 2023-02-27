@@ -24,17 +24,20 @@
                         <a class="menu__link" href=#ENSINO onclick="handleScroll()">ENSINO</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a class="menu__link" href=#PROFESSORES onclick="handleScroll()">PROFESSORES</a>
+                        <a class="menu__link" href=#DIRETORAS onclick="handleScroll()">DIRETORAS</a>
                     </li>
                     <li class="menu__items flex__spacearound">
                         <a class="menu__link" href=#MODALIDADES onclick="handleScroll()">MODALIDADES</a>
                     </li>
                     <li class="menu__items flex__spacearound">
-                        <a  class="menu__link" href=#VOZDOSALUNOS onclick="handleScroll()">VOZ DOS ALUNOS</a>
+                        <a  class="menu__link" href=#DEPOIMENTOS onclick="handleScroll()">DEPOIMENTOS</a>
+                    </li >
+                    <li class="menu__items flex__spacearound">
+                        <a  class="menu__link" href=#PERGUNTAS onclick="handleScroll()">PERGUNTAS FREQUENTES</a>
                     </li >
                     <li class="flex__spacearound" >
                         <a class="menu__link menu__button__contact" href=#CONTATOS onclick="handleButtonContact()" >CONTATOS</a>
-                    </li>
+                    </li>                
                  </ul>
             </nav>
      </header>
@@ -53,10 +56,9 @@
      </section>
 
     <main class="banner element--width" id="banner">
-        <h1 class="banner__title">PERMITA-SE DANÇAR, VENHA SE DIVERTIR NO CIRANDA!</h1>
+        <h1 class="banner__title">A DANÇA É PRA TODES! VEM SER CIRANDA!</h1>
         <div class="banner__images">
             <img class="banner__img" src="Imagens/destaque1.jpg" alt="Imagem dançarinas">
-            <img class="banner__img" src="Imagens/destaque2.jpg" alt="Imagem dançarinas">
         </div>
 
     </main>
@@ -73,11 +75,10 @@
                 humano. A partir do trabalho de consciência corporal, trabalho com espaço,
                 peso, tempo, fluidez. 
             </p>
-            <!-- <img class="description__img"src="Imagens/sobre1.png" alt="Imagem dançarinas"> -->
-            <!-- <iframe class="description__video" src="https://drive.google.com/file/d/1seddTNVGuiVMuoN8Vq3yHDAJ3BaLse5V/preview"></iframe> -->
-            <iframe class="description__video" src="https://www.youtube.com/embed/vlUVjwAB0CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="description__video" src="https://www.youtube.com/embed/zydAhSz0tjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
+
     <section class="education flex__column" id="ENSINO">
         <h1 class="title"> ENSINO</h1>
             <div class="education__banner">
@@ -126,12 +127,12 @@
             </div>
             <div class="interval flex__column">
                 <img class="interval__img"src="Imagens/dancarina.png" alt="Imagem dançarina">
-                <p class="interval__text">Venha fazer parte do nosso estúdio</p>
+                <a href='#CONTATOS' class="interval__text">Vem ser Ciranda</a>
             </div>  
     </section>
 
-    <section class="teachers flex__column" id="PROFESSORES">
-        <h1 class="title">PROFESSORAS</h1>
+    <section class="teachers flex__column" id="DIRETORAS">
+        <h1 class="title">DIRETORAS</h1>
         <div class="teachers__informative flex__spacearound element--width">
             <div class="teachers__description">
                 <img class="teachers__img" id="dancarina"src="Imagens/prof1.jpg" alt="Imagem dançarina">
@@ -151,15 +152,6 @@
                     </p>
                 </div>
             </div>
-            <div class="teachers__description" >
-                <img class="teachers__img" id="dancarina"src="Imagens/prof2.jpg" alt="Imagem dançarina">
-                <div class="flex__column">
-                    <h3 class="teachers__title">Ágatha Matos</h3>
-                    <p class="teachers__text">
-                        Formada no curso básico de dança do Centro de Formação Artística da Fundação Clóvis Salgado e pela escola inglesa, Royal Academy of Dance. Graduada no curso de Licenciatura em Educação Física pela Universidade de Franca. Possui ampla experiência no ensino da dança clássica, que vai do infantil ao adulto. Atuando em escolas de esportes e no estúdio de dança.
-                    </p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -173,8 +165,8 @@
         </div>
     </section>
 
-    <section class="flex__column student_voice" id="VOZDOSALUNOS">
-        <h1 class="title">VOZ DOS ALUNOS</h1>
+    <section class="flex__column student_voice" id="DEPOIMENTOS">
+        <h1 class="title">DEPOIMENTOS</h1>
         <div class="comments flex__spacearound element--width">
             <div class="comments__box">
                 <img class="comments__img__init" src="Imagens/InicioAspas.png">
@@ -201,6 +193,81 @@
                 <img class="comments__img__end" src="Imagens/FinalAspas.png">   
             </div>
         </div>
+    </section>
+
+    <section class="questions flex__column" id="PERGUNTAS">
+        <h1 class="title">PERGUNTAS FREQUENTES</h1>
+        <div class="section-accordion">
+            <div class="accordion-title">
+                Quais modalidades de Dança tem no estúdio?
+              </div>
+            <div class="accordion-body">
+                Temos Ballet Clássico e Jazz Dance.
+            </div>
+        </div>
+        <div class="section-accordion">
+            <div class="accordion-title">
+                Qual faixa etária atendemos?
+              </div>
+            <div class="accordion-body">
+                Atendemos do infantil ao adulto. Sendo:
+                    <li class="accordion-body"> Baby Ballet - 3 a 5 anos</li>
+                    <li class="accordion-body"> Ballet Infantil - 6 a 10 anos</li>
+                    <li class="accordion-body"> Jazz Infantil - 6 a 10 anos</li>
+                    <li class="accordion-body"> Jazz Juvenil - 11 a 15 anos</li>
+                    <li class="accordion-body"> Ballet Adulto - a partir de 15 anos</li>
+                    <li class="accordion-body"> Jazz Adulto - a partir de 15 anos</li>
+                    <li class="accordion-body"> Melhor idade - Melhor Idade</li>
+            </div>
+        </div>
+        <div class="section-accordion">
+            <div class="accordion-title">
+                Quais são os horários?
+              </div>
+            <div class="accordion-body">
+               <p class="accordion-body">Baby Ballet I: segunda às 9hrs e quarta às 9hrs</p>
+               <p class="accordion-body">Baby Ballet II: segunda às 18hrs e quarta às 18hrs</p>
+               <p class="accordion-body">Baby Ballet III: terça às 9hrs e quinta às 9hrs</p>
+               <p class="accordion-body">Baby Ballet IV: terça às 18:30hrs e quinta às 18:30hrs</p>
+               <p class="accordion-body">Baby Ballet V: sábado às 9hrs</p>
+               <p class="accordion-body">Baby Infantil I: segunda às 19hrs e quarta às 19hrs</p>
+               <p class="accordion-body">Baby Infantil II: terça às 9hrs e quinta às 9hrs</p>
+               <p class="accordion-body">Baby Infantil III: terça às 19hrs e quinta às 19hrs</p>
+               <p class="accordion-body">Baby Infantil IV: sábado às 10:15hrs</p>
+               <p class="accordion-body">Baby Adulto Iniciante: terça às 19hrs e quinta às 19hrs</p>
+               <p class="accordion-body">Baby Adulto Intermediário: sábado às 9:30hrs</p>
+               <p class="accordion-body">Jazz Infantil I: terça às 10hrs e quinta às 10hrs</p>
+               <p class="accordion-body">Jazz Infantil II: terça às 18hrs e quinta às 18hrs</p>
+               <p class="accordion-body">Jazz Juvenil: segunda às 19hrs e quarta às 19hrs</p>
+               <p class="accordion-body">Jazz Adulto Inciante: segunda às 20hrs e quarta às 20hrs</p>
+               <p class="accordion-body">Jazz Adulto Intermediário: terça às 20hrs e quinta às 20hrs</p>
+               <p class="accordion-body">Dança Melhor Idade: segunda às 18hrs e quarta às 18hrs</p>
+            </div>
+        </div>
+        <div class="section-accordion">
+            <div class="accordion-title">
+                Qual o valor da mensalidade? E da matrícula?
+              </div>
+            <div class="accordion-body">
+                <p class="accordion-body">Matricula - R$80,00</p>
+                <p class="accordion-body">Aula avulsa - R$30,00</p>
+                <p class="accordion-body">2 aulas por semana - R$130,00</p>
+                <p class="accordion-body">3 aulas por semana - R$200,00</p>
+                <p class="accordion-body">4 aulas por semana - R$250,00</p>
+                <p class="accordion-body">Pacote família 5% de esconto a partir da 2º mensalidade</p>
+                <p class="accordion-body">Consulte forma de pagamento</p>
+            </div>
+        </div>
+        <div class="section-accordion">
+            <div class="accordion-title">
+                Como fazer parte do Ciranda Estúdio de Dança?
+              </div>
+            <div class="accordion-body">
+                Entre em contato conosco e marque sua aula experimental gratuitamente e também para mais informações.
+            </div>
+        </div>
+
+
     </section>
 
     <footer class="flex__spacearound contact" id="CONTATOS">
@@ -239,5 +306,7 @@
       
     </footer>
 </body>
-<script src="JS/Ciranda.js"></script>
+<script src="JS/Menu.js"></script>
+<script src="JS/Modalities.js"></script>
+<script src="JS/Accordion.js"></script>
 </html>

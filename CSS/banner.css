@@ -1,0 +1,43 @@
+/* section destaque */
+.banner {
+  padding-top: 6vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.banner__title {
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  width: 80vw;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.banner__images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.banner__img {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .banner {
+    padding-top: 8vw;
+  }
+
+  .banner__title {
+    margin-top: 3vw;
+    font-size: 2rem;
+  }
+  .banner__images {
+    width: 100vw;
+  }
+  .banner__img {
+    width: 100%;
+    min-width: 100vw;
+  }
+}

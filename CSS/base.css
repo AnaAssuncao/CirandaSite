@@ -1,0 +1,72 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --title-dark: #0a6469;
+  --title: #11a0a8;
+  --title-light: #18eaf5;
+  --text-dark: #053032;
+  --text: #0e888f;
+  --text-light: #e6ffff;
+  --background-dark: #11a0a8;
+  --background: #6be1e3;
+  --background-light: #e6ffff;
+  --blue-dark: #053032;
+  --blue: #0e888f;
+  --blue-light: #6be1e3;
+  --shadow: #c1f8fb;
+  --purple: #7922a850;
+  --pink: #a8227850;
+  --green: #09b55d50;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cinzel", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (min-width: 900px) {
+  .default__config {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .default__config {
+    font-size: 20px;
+  }
+}
+
+.flex__spacearound {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title {
+  font-size: 2.4rem;
+  color: var(--title-dark);
+  border-bottom: 1px solid var(--blue);
+  align-self: center;
+  margin-bottom: 3vw;
+  text-align: center;
+}
+.flex__column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    font-size: 2rem;
+  }
+  .element--width {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+}
