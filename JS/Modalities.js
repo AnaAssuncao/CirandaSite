@@ -46,9 +46,6 @@ const modalities = {
     "A dança para Melhor Idade tem o intuito de melhorar a qualidade de vida de quem pratica esta atividade. O foco da aula está no alongamento e fortalecimento do corpo através de pequenas sequências coreografadas. Uma experiência que pode trazer inúmeros benefícios que influenciam no bem-estar físico e mental dos alunos, trabalhando memória, postura, consciência corporal e coordenação motora.",
   ],
   elementSelect: null,
-  structureDescription: ["title", "age", "explanation"],
-  elementCreateDescription: ["h1", "p", "p"],
-  addClass: ["modalities__title", "modalities__age", "modalities__explanation"],
 };
 
 creatListModalities(modalities);
@@ -122,8 +119,8 @@ function illustrateModalityInformation(
 
   createModalityDescrition(
     "h1",
-    modalities.addClass[0],
-    modalities.structureDescription[0],
+    "modalities__title",
+    "title",
     numberIndex,
     content,
     modalities
@@ -131,17 +128,17 @@ function illustrateModalityInformation(
 
   createModalityDescrition(
     "p",
-    modalities.addClass[1],
-    modalities.structureDescription[1],
+    "modalities__age",
+    "age",
     numberIndex,
     content,
     modalities
   );
 
   createModalityDescrition(
-    "p",
-    modalities.addClass[2],
-    modalities.structureDescription[2],
+    "div",
+    "modalities__explanation",
+    "explanation",
     numberIndex,
     modDescription,
     modalities
@@ -156,7 +153,7 @@ function createModalityDescrition(
   modalities
 ) {
   const modElement = document.createElement(`${creatElement}`);
-  modElement.classList.add(`${addClass}`);
+  modElement.classList.add(addClass);
   modElement.innerHTML = modalities[structure][numberIndex];
   modDescription.appendChild(modElement);
 }
