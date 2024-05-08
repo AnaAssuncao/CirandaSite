@@ -7,7 +7,7 @@ const modalities = {
     "ModJazzInf.jpg",
     "ModJazzJuv.jpg",
     "ModJazzAdult.jpg",
-    "ModAlogamentoIdade.jpg",
+    "ModUrbanDance.jpg",
   ],
   id: [
     "modBaby",
@@ -16,7 +16,7 @@ const modalities = {
     "modJazzInf",
     "modJazzJuv",
     "modJazzAdult",
-    "modModAlogamentoIdade",
+    "modUrbanDance",
   ],
   title: [
     "Ballet Baby",
@@ -25,7 +25,7 @@ const modalities = {
     "Jazz Infantil",
     "Jazz Juvenil",
     "Jazz Adulto",
-    "Dança para Melhor Idade",
+    "Danças Urbanas",
   ],
   age: [
     "Entre 3 e 5 anos",
@@ -34,7 +34,7 @@ const modalities = {
     "Entre 7 e 10 anos",
     "Entre 11 e 15 anos",
     "A partir de 15 anos",
-    "Melhor idade",
+    "A partir de 12 anos",
   ],
   explanation: [
     "Para as crianças que sonham em ser balarinas, o Baby Ballet é uma iniciação a dança clássica.<br><br>Nesta modalidade elas descobrem a dança de uma maneira lúdica e afetiva. As aulas são divertidas e encantadoras tornando o aprendizado leve e eficaz.",
@@ -43,7 +43,7 @@ const modalities = {
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Sua criança irá se divertir e se desenvolver corporalmente.",
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
     "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
-    "A dança para Melhor Idade tem o intuito de melhorar a qualidade de vida de quem pratica esta atividade. O foco da aula está no alongamento e fortalecimento do corpo através de pequenas sequências coreografadas. Uma experiência que pode trazer inúmeros benefícios que influenciam no bem-estar físico e mental dos alunos, trabalhando memória, postura, consciência corporal e coordenação motora.",
+    "Danças urbanas são um conjunto de estilos de dança nascidos e desenvolvidos nas áreas urbanas, geralmente associados à cultura hip-hop. Esses estilos incluem breaking, locking, popping, waacking, krumping, entre outros. As danças urbanas são caracterizadas pela sua energia, improvisação, e expressão individual, e muitas vezes são utilizadas como forma de autoexpressão e empoderamento.",
   ],
   elementSelect: null,
 };
