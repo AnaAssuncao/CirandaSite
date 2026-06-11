@@ -7,7 +7,6 @@ const modalities = {
     "ModJazzInf.jpg",
     "ModJazzJuv.jpg",
     "ModJazzAdult.jpg",
-    "ModUrbanDance.jpg",
   ],
   id: [
     "modBaby",
@@ -16,7 +15,6 @@ const modalities = {
     "modJazzInf",
     "modJazzJuv",
     "modJazzAdult",
-    "modUrbanDance",
   ],
   title: [
     "Ballet Baby",
