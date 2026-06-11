@@ -1,7 +1,7 @@
 /* section description */
 .description {
   margin-bottom: 5vw;
-  height: 40vw;
+  padding: 2rem 0;
   background: linear-gradient(
     270deg,
     var(--background-dark) 3.18%,
@@ -23,12 +23,10 @@
 .description__video {
   width: 40vw;
   height: 21vw;
+  max-height: 480px;
 }
 
 @media (max-width: 1000px) {
-  .description {
-    height: 120vw;
-  }
   .description__video {
     width: 90vw;
     height: 50vw;

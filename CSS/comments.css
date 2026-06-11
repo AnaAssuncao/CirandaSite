@@ -55,7 +55,8 @@
     border-radius: 1vw;
     width: 100%;
     max-width: 100%;
-    height: 20vh;
+    height: auto;
+    padding: 3em 2em;
   }
   .comments__text {
     font-size: 20px;

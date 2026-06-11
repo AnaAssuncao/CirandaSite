@@ -9,8 +9,6 @@
   align-items: center;
   padding: 16px;
   width: 40vw;
-  height: 76vh;
-  max-height: 650px;
   border: solid 4px var(--background-dark);
   border-radius: 30px;
   margin: 1vw;
@@ -37,7 +35,6 @@
   }
   .teachers__description {
     width: 90vw;
-    height: 45vw;
     flex-flow: column wrap;
     justify-self: center;
   }
@@ -51,7 +48,6 @@
   }
   .teachers__text {
     font-size: 20px;
-    width: 45vw;
     font-weight: normal;
   }
 }

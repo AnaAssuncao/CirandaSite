@@ -27,10 +27,10 @@ menu.listItems.forEach((item) =>
   })
 );
 
-const widht = window.innerWidth;
+const width = window.innerWidth;
 
 const handleScroll = () => {
-  const scroll = widht > 1000 ? 100 : 250;
+  const scroll = width > 1000 ? 100 : 250;
   setTimeout(() => {
     const heightScroll = window.scrollY - scroll;
     window.scroll(0, heightScroll);

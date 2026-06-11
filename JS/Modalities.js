@@ -25,7 +25,6 @@ const modalities = {
     "Jazz Infantil",
     "Jazz Juvenil",
     "Jazz Adulto",
-    "Danças Urbanas",
   ],
   age: [
     "Entre 3 e 5 anos",
@@ -34,7 +33,6 @@ const modalities = {
     "Entre 7 e 10 anos",
     "Entre 11 e 15 anos",
     "A partir de 15 anos",
-    "A partir de 12 anos",
   ],
   explanation: [
     "Para as crianças que sonham em ser balarinas, o Baby Ballet é uma iniciação a dança clássica.<br><br>Nesta modalidade elas descobrem a dança de uma maneira lúdica e afetiva. As aulas são divertidas e encantadoras tornando o aprendizado leve e eficaz.",
@@ -43,7 +41,6 @@ const modalities = {
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Sua criança irá se divertir e se desenvolver corporalmente.",
     "Com inspiração em diversos estilos de dança, essa modalidade proporciona um momento de muita troca de energia, trabalho corporal e expressivo!<br><br> Com foco no trabalho corporal e na técnica de jazz!",
     "Com foco no desenvolvimento do ser (autoestima, autoconhecimento, superação) o jazz adulto traz um momento de leveza no seu dia, onde é possível extravasar as emoções, se superar em relação as suas limitações e descobrir suas potencialidades!<br><br> Não tem idade, corpo ou altura ideal! Se permita!",
-    "Danças urbanas são um conjunto de estilos de dança nascidos e desenvolvidos nas áreas urbanas, geralmente associados à cultura hip-hop. Esses estilos incluem breaking, locking, popping, waacking, krumping, entre outros. As danças urbanas são caracterizadas pela sua energia, improvisação, e expressão individual, e muitas vezes são utilizadas como forma de autoexpressão e empoderamento.",
   ],
   elementSelect: null,
 };
@@ -52,7 +49,7 @@ creatListModalities(modalities);
 illustrateModalityInformation(
   document.querySelector("#modalities__group"),
   0,
-  modalities
+  modalities,
 );
 function creatListModalities(modalities) {
   const modalitiesList = document.querySelector("#modalities__list");
@@ -89,14 +86,14 @@ function updateModalityGroup(modalities, objEvent) {
 
 function removeModalityInformation(modalitiesGroup) {
   modalitiesGroup.removeChild(
-    document.querySelector(".modalities__information")
+    document.querySelector(".modalities__information"),
   );
 }
 
 function illustrateModalityInformation(
   modalitiesGroup,
   numberIndex,
-  modalities
+  modalities,
 ) {
   const modGroupInformation = document.createElement("div");
   modGroupInformation.classList.add("modalities__information");
@@ -123,7 +120,7 @@ function illustrateModalityInformation(
     "title",
     numberIndex,
     content,
-    modalities
+    modalities,
   );
 
   createModalityDescrition(
@@ -132,7 +129,7 @@ function illustrateModalityInformation(
     "age",
     numberIndex,
     content,
-    modalities
+    modalities,
   );
 
   createModalityDescrition(
@@ -141,7 +138,7 @@ function illustrateModalityInformation(
     "explanation",
     numberIndex,
     modDescription,
-    modalities
+    modalities,
   );
 }
 function createModalityDescrition(
@@ -150,7 +147,7 @@ function createModalityDescrition(
   structure,
   numberIndex,
   modDescription,
-  modalities
+  modalities,
 ) {
   const modElement = document.createElement(`${creatElement}`);
   modElement.classList.add(addClass);
